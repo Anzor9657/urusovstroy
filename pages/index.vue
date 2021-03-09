@@ -162,6 +162,65 @@
         <b-img src="../static/images/image_1.png" fluid alt="image_1" />
       </div>
     </div>
+    <div class="row padding-150 text-center align-items-center">
+      <div class="col font-weight-bold">03</div>
+      <div class="col font-weight-bold">Почему мы</div>
+      <div class="col font-weight-bold">Факты о компании</div>
+    </div>
+    <div class="row padding-150 justify-content-center">
+      <div class="col-md-5 font-weight-bold">
+        <b-img src="../static/images/image_2.png" fluid alt="image_2 image" />
+      </div>
+      <div class="col-md-5 font-weight-bold big-padding pt-0">
+        <div class="padding-50">
+          <div class="normal-text mb-2">
+            Индивидуально разработанный интерьер
+          </div>
+          <div class="small-text">
+            За счет детального сбора информации для каждого заказчика и
+            составления подробного технического задания, интерьеры получаются
+            удобными для повседневной жизни
+          </div>
+        </div>
+        <div class="padding-50">
+          <div class="normal-text mb-2">
+            Понимание строительных технологий
+          </div>
+          <div class="small-text">
+            Проектирование дизайн проекта идет с четким пониманием того, как
+            идеи будут воплощены в реальной жизни
+          </div>
+        </div>
+        <div class="padding-50">
+          <div class="normal-text mb-2">
+            Соотношение цены и качества
+          </div>
+          <div class="small-text">
+            Во время проектирования, мы грамотно распределяем бюджет заказчика,
+            чтобы получить наилучший результат
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row padding-150 text-center align-items-center">
+      <div class="col font-weight-bold">04</div>
+      <div class="col font-weight-bold">Вопросы</div>
+      <div class="col font-weight-bold">Свяжись с нами</div>
+    </div>
+    <div class="row padding-150 align-items-center">
+      <div class="col-md-5 offset-2 mr-auto">
+        <div class="big-text padding-50">
+          Остались вопросы?
+          <br />
+          Или хотите связаться с нами?
+          <br />
+          Мы всегда рады вам помочь!
+        </div>
+        <div class="normal-text underline">
+          Заказать звонок
+        </div>
+      </div>
+    </div>
     <!-- <div>
       <h1>Hello Nuxters! 👋</h1>
       <p>
@@ -206,7 +265,7 @@ export default {
 .top-title-container {
   position: absolute;
   top: 20vw;
-  left: 10.2vw;
+  left: 9vw;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -215,6 +274,7 @@ export default {
 }
 .top-title {
   font-size: 4.75rem;
+  font-family: "EurostyleLTStd";
 }
 .feedback {
   position: absolute;

@@ -12,43 +12,43 @@
       </div>
       <div class="feedback">
         <div class="d-flex flex-column">
-          <span class="title">Связаться с нами</span>
+          <span class="title-text">Связаться с нами</span>
           <span class="action">Заказать звонок сейчас</span>
         </div>
       </div>
     </div>
-    <div class="row padding-150 text-center align-items-center">
-      <div class="col font-weight-bold">01</div>
-      <div class="col font-weight-bold">Кто мы</div>
-      <div class="col font-weight-bold">О компании</div>
-    </div>
-    <div class="row justify-content-center padding-100">
-      <div class="col-md-3 normal-text">
+    <b-row class="padding-150 text-center">
+      <b-col class="font-weight-bold">01</b-col>
+      <b-col class="font-weight-bold">Кто мы</b-col>
+      <b-col class="font-weight-bold">О компании</b-col>
+    </b-row>
+    <b-row align-h="center" class="padding-100">
+      <b-col cols="3" class="normal-text">
         Команда профессионалов
-      </div>
-      <div class="col-md-6 big-text">
+      </b-col>
+      <b-col cols="6" class="big-text">
         Амбициозная и уверенная в себе команда с четырехлетним успешным опытом
         реализации проектов разного уровня сложности
-        <div class="row small-text mt-4">
-          <div class="col-md">
+        <b-row class="small-text mt-4">
+          <b-col>
             Мы удовлетворяем эстетические потребности наших клиентов, предлагая
             уникальную методику работы и высококлассный сервис. Мы берем на себя
             все заботы начиная с замысла до самого новоселья
-          </div>
-          <div class="col-md">
+          </b-col>
+          <b-col>
             Больше всего в нашей работе мы заботимся о функциональности
             интерьера, стремясь создать максимально удобные условия для жизни.
             Наш успех предопределен ответственным подходом к работе всей нашей
             команды
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row padding-150 justify-content-center align-items-center">
-      <div class="col-md-5 font-weight-bold">
+          </b-col>
+        </b-row>
+      </b-col>
+    </b-row>
+    <b-row align-h="center" align-v="center" class="padding-150">
+      <b-col cols="5" class="font-weight-bold">
         <b-img src="../static/images/person.png" fluid alt="person image" />
-      </div>
-      <div class="col-md-5 font-weight-bold big-padding">
+      </b-col>
+      <b-col cols="5" class="font-weight-bold big-padding">
         <div class="padding-50">
           <div class="big-text">
             Урусов Алим Отчество
@@ -74,17 +74,17 @@
         <div class="normal-text underline">
           Сотрудники компании
         </div>
-      </div>
-    </div>
-    <div class="row padding-150 text-center align-items-center">
-      <div class="col font-weight-bold">02</div>
-      <div class="col font-weight-bold">Что мы предлагаем</div>
-      <div class="col font-weight-bold">Наши услуги</div>
-    </div>
-    <div class="row justify-content-end padding-150">
-      <div class="col-5 offset-2 mr-auto">
-        <div class="row padding-100">
-          <div class="col-5 mr-auto">
+      </b-col>
+    </b-row>
+    <b-row class="padding-150 text-center">
+      <b-col class="font-weight-bold">02</b-col>
+      <b-col class="font-weight-bold">Что мы предлагаем</b-col>
+      <b-col class="font-weight-bold">Наши услуги</b-col>
+    </b-row>
+    <b-row align-h="center" class="padding-150">
+      <b-col cols="5">
+        <b-row class="padding-100">
+          <b-col cols="5" class="mr-auto">
             <div class="font-weight-bold mb-3">
               01
             </div>
@@ -95,8 +95,8 @@
               Выполняем комплексное проектирование коммерческих и жилых объектов
               с полным пакетом документов
             </div>
-          </div>
-          <div class="col-5 mr-auto">
+          </b-col>
+          <b-col cols="5" class="mr-auto">
             <div class="font-weight-bold mb-3">
               02
             </div>
@@ -107,8 +107,8 @@
               Выполняем комплексное проектирование коммерческих и жилых объектов
               с полным пакетом документов
             </div>
-          </div>
-          <div class="col-5 mr-auto">
+          </b-col>
+          <b-col cols="5" class="mr-auto">
             <div class="font-weight-bold mb-3">
               03
             </div>
@@ -119,8 +119,8 @@
               Начиная от первого кирпича, заканчивая новосельем, мы построим дом
               европейского уровня
             </div>
-          </div>
-          <div class="col-5 mr-auto">
+          </b-col>
+          <b-col cols="5" class="mr-auto">
             <div class="font-weight-bold mb-3">
               04
             </div>
@@ -131,8 +131,8 @@
               Электрики, сантехники, плиточники, моляры. Лучшие специалисты в
               одной компании
             </div>
-          </div>
-          <div class="col-5 mr-auto">
+          </b-col>
+          <b-col cols="5" class="mr-auto">
             <div class="font-weight-bold mb-3">
               05
             </div>
@@ -143,8 +143,8 @@
               Мы используем в наших проектах мебель, выполненную по
               индивидуальным эскизам
             </div>
-          </div>
-          <div class="col-5 mr-auto">
+          </b-col>
+          <b-col cols="5" class="mr-auto">
             <div class="font-weight-bold mb-3">
               06
             </div>
@@ -155,23 +155,23 @@
               Эксклюзивные материалы дают нам возможность делать уникальный
               интерьер
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5">
+          </b-col>
+        </b-row>
+      </b-col>
+      <b-col cols="5">
         <b-img src="../static/images/image_1.png" fluid alt="image_1" />
-      </div>
-    </div>
-    <div class="row padding-150 text-center align-items-center">
-      <div class="col font-weight-bold">03</div>
-      <div class="col font-weight-bold">Почему мы</div>
-      <div class="col font-weight-bold">Факты о компании</div>
-    </div>
-    <div class="row padding-150 justify-content-center">
-      <div class="col-md-5 font-weight-bold">
+      </b-col>
+    </b-row>
+    <b-row class="padding-150 text-center">
+      <b-col class="font-weight-bold">03</b-col>
+      <b-col class="font-weight-bold">Почему мы</b-col>
+      <b-col class="font-weight-bold">Факты о компании</b-col>
+    </b-row>
+    <b-row align-h="center" class="padding-150">
+      <b-col cols="5" class="font-weight-bold">
         <b-img src="../static/images/image_2.png" fluid alt="image_2 image" />
-      </div>
-      <div class="col-md-5 font-weight-bold big-padding pt-0">
+      </b-col>
+      <b-col cols="4" offset="1" class="font-weight-bold">
         <div class="padding-50">
           <div class="normal-text mb-2">
             Индивидуально разработанный интерьер
@@ -200,15 +200,15 @@
             чтобы получить наилучший результат
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row padding-150 text-center align-items-center">
-      <div class="col font-weight-bold">04</div>
-      <div class="col font-weight-bold">Вопросы</div>
-      <div class="col font-weight-bold">Свяжись с нами</div>
-    </div>
-    <div class="row padding-150 align-items-center">
-      <div class="col-md-5 offset-2 mr-auto">
+      </b-col>
+    </b-row>
+    <b-row class="padding-150 text-center">
+      <b-col class="font-weight-bold">04</b-col>
+      <b-col class="font-weight-bold">Вопросы</b-col>
+      <b-col class="font-weight-bold">Свяжись с нами</b-col>
+    </b-row>
+    <b-row class="padding-150">
+      <b-col cols="5" offset="2" class="mr-auto">
         <div class="big-text padding-50">
           Остались вопросы?
           <br />
@@ -219,23 +219,39 @@
         <div class="normal-text underline">
           Заказать звонок
         </div>
-      </div>
-    </div>
-    <!-- <div>
-      <h1>Hello Nuxters! 👋</h1>
-      <p>
-        This page is rendered on the <strong>{{ rendering }}</strong>
-      </p>
-      <p v-if="rendering === 'server'">
-        First load or hard refresh is done on server side.
-      </p>
-      <p v-if="rendering === 'client'">Navigation is done on client side.</p>
-      <ul>
-        <li>Refresh the page for server side rendering.</li>
-        <li>Click the links to see client side rendering.</li>
-      </ul>
-      <NuxtLink to="/about">About Page</NuxtLink>
-    </div> -->
+      </b-col>
+    </b-row>
+    <b-row class="footer big-padding gray-small-text-500">
+      <b-col cols="3">
+        <p class="title-text text-black">Карта сайта</p>
+        <p>Главная</p>
+        <p>Наша команда</p>
+        <p>Дизайн интерьера</p>
+        <p>Проектирование</p>
+        <p>Строительство</p>
+        <p>Ремонт</p>
+        <p>Корпусная мебель</p>
+        <p>Интерьерный салон</p>
+      </b-col>
+      <b-col cols="3">
+        <p class="title-text text-black">Мы в соцсетях</p>
+        <p>Instagram</p>
+        <p>YouTube</p>
+      </b-col>
+      <b-col cols="6" class="text-right">
+        <div class="d-flex flex-column justify-content-between h-100">
+          <div>
+            <p>8 (928) 719-66-38</p>
+            <p>Улица Ахохова, 183, Нальчик</p>
+            <p>urusov-stroy@gmail.com</p>
+          </div>
+          <div>
+            <p class="footer-text text-black">URUSOVSTROY 2021</p>
+            <p>Made by DOT.</p>
+          </div>
+        </div>
+      </b-col>
+    </b-row>
   </div>
 </template>
 <script>
@@ -287,14 +303,14 @@ export default {
   height: 14vw;
   background-color: #fff;
 }
-.feedback div .title {
-  font-size: 1.4375rem;
-  font-weight: 500;
-}
 .feedback div .action {
   font-size: 1.25rem;
   font-weight: 500;
   color: #adadad;
+}
+.title-text {
+  font-size: 1.4375rem;
+  font-weight: 500;
 }
 .big-text {
   font-weight: 600;
@@ -325,6 +341,21 @@ export default {
   text-transform: uppercase;
   color: #6d6d6d;
 }
+.gray-small-text-500 {
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: #6d6d6d;
+}
+.footer-text {
+  font-family: "EurostyleLTStd";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 3.375rem;
+}
 .big-padding {
   padding: 150px;
 }
@@ -337,9 +368,22 @@ export default {
 .padding-150 {
   padding-bottom: 150px;
 }
+.text-black {
+  color: #000;
+}
 .underline {
   width: fit-content;
   border-bottom: 2px solid;
   padding-bottom: 5px;
+}
+.footer {
+  border-top: 1px solid #e5e5e5;
+  text-transform: none;
+}
+.footer p {
+  margin-bottom: 14px;
+}
+.footer p.footer-text {
+  margin-bottom: 0;
 }
 </style>

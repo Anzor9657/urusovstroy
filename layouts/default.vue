@@ -10,7 +10,23 @@
   font-family: "EurostyleLTStd";
   src: local("EurostyleLTStd"), url("../static/fonts/EurostileLT.ttf");
 }
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
 
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
 html {
   font-family: Montserrat, "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -21,6 +37,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  max-width: 1920px;
+  max-height: 1080px;
 }
 ::-webkit-scrollbar {
   display: none;

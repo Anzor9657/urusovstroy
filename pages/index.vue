@@ -12,7 +12,11 @@
           'trans-end': showAnime
         }"
       >
-        <span class="top-title">urusovstroy</span>
+        <span class="top-title">urusovstroy</span><br />
+        <span class="blink normal-text">
+          Сайт в процессе разработки... <br />
+          Некоторые функции недоступны
+        </span>
       </span>
     </div>
     <div v-show="showSite">
@@ -381,7 +385,7 @@ a:hover {
 }
 .trans-end {
   transition: opacity 0.7s, transform 1s;
-  transform: translateX(36vw);
+  transform: translateX(34vw);
   opacity: 1;
 }
 .top-title-container {
@@ -501,5 +505,15 @@ a:hover {
 }
 .footer p.footer-text {
   margin-bottom: 0;
+}
+.blink {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  animation-duration: 1s;
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-animation-duration: 1s;
 }
 </style>

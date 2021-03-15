@@ -37,7 +37,9 @@
       </div>
       <div class="feedback">
         <div class="d-flex flex-column">
-          <span class="title-text">Связаться с нами</span>
+          <a href="tel:89280807670">
+            <span class="title-text">Связаться с нами</span>
+          </a>
           <span class="action">Заказать звонок сейчас</span>
         </div>
       </div>
@@ -264,6 +266,9 @@ a:hover {
   font-size: 1.25rem;
   font-weight: 500;
   color: #adadad;
+}
+.feedback a {
+  color: #000;
 }
 .navbar-text {
   font-weight: 400;

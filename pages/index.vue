@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div
-      class="start d-flex align-items-center open-start"
+      class="start d-flex align-items-center"
       :class="{
         'open-end': showSite
       }"
@@ -12,10 +12,42 @@
           'trans-end': showAnime
         }"
       >
-        live
+        <span class="top-title">urusovstroy</span>
       </span>
     </div>
     <div v-show="showSite">
+      <b-navbar type="dark" variant="transparent" class="navbar">
+        <NuxtLink to="/">
+          <b-img src="../static/images/logo.svg" fluid alt="logo" />
+        </NuxtLink>
+
+        <b-navbar-toggle target="navbar-toggle-collapse">
+          <template #default="{}">
+            <b-img
+              src="../static/images/navbar_icon.svg"
+              fluid
+              alt="navbar icon"
+            />
+          </template>
+        </b-navbar-toggle>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav class="navbar-titles navbar-text">
+            <NuxtLink to="/">дизайн интерьера</NuxtLink>
+            <NuxtLink to="/architectural-design"
+              >архитектурное проектирование</NuxtLink
+            >
+            <NuxtLink to="/construction">строительство</NuxtLink>
+            <NuxtLink to="/">ремонт</NuxtLink>
+            <NuxtLink to="/">корпусная мебель</NuxtLink>
+            <NuxtLink to="/">интерьерный салон</NuxtLink>
+          </b-navbar-nav>
+
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto"></b-navbar-nav>
+        </b-collapse>
+        <b-img src="../static/images/navbar_icon.svg" fluid alt="navbar icon" />
+      </b-navbar>
       <div class="padding-100">
         <b-img
           src="../static/images/big_image.png"
@@ -67,7 +99,7 @@
         <b-col cols="5" class="font-weight-bold big-padding">
           <div class="padding-50">
             <div class="big-text">
-              Урусов Алим Отчество
+              Урусов Алим Русланович
             </div>
             <div class="gray-big-text">
               Основатель
@@ -100,7 +132,7 @@
       <b-row align-h="center" class="padding-150">
         <b-col cols="6" offset="1">
           <b-row class="padding-100">
-            <b-col cols="6" class="mr-auto">
+            <b-col cols="5" class="mr-auto">
               <div class="font-weight-bold mb-3">
                 01
               </div>
@@ -112,7 +144,7 @@
                 объектов с полным пакетом документов
               </div>
             </b-col>
-            <b-col cols="6" class="mr-auto">
+            <b-col cols="5" class="mr-auto">
               <div class="font-weight-bold mb-3">
                 02
               </div>
@@ -124,19 +156,21 @@
                 объектов с полным пакетом документов
               </div>
             </b-col>
-            <b-col cols="6" class="mr-auto">
+            <b-col cols="5" class="mr-auto">
               <div class="font-weight-bold mb-3">
                 03
               </div>
               <div class="normal-text mb-2">
-                <NuxtLink to="/construction"> Строительство </NuxtLink>
+                <NuxtLink class="text-black" to="/construction">
+                  Строительство
+                </NuxtLink>
               </div>
               <div class="small-text padding-50">
                 Начиная от первого кирпича, заканчивая новосельем, мы построим
                 дом европейского уровня
               </div>
             </b-col>
-            <b-col cols="6" class="mr-auto">
+            <b-col cols="5" class="mr-auto">
               <div class="font-weight-bold mb-3">
                 04
               </div>
@@ -148,7 +182,7 @@
                 одной компании
               </div>
             </b-col>
-            <b-col cols="6" class="mr-auto">
+            <b-col cols="5" class="mr-auto">
               <div class="font-weight-bold mb-3">
                 05
               </div>
@@ -160,7 +194,7 @@
                 индивидуальным эскизам
               </div>
             </b-col>
-            <b-col cols="6" class="mr-auto">
+            <b-col cols="5" class="mr-auto">
               <div class="font-weight-bold mb-3">
                 06
               </div>
@@ -283,6 +317,11 @@ export default {
       }
     ]
   },
+  asyncData() {
+    return {
+      rendering: process.server ? "server" : "client"
+    };
+  },
   data() {
     return {
       showAnime: false,
@@ -296,11 +335,6 @@ export default {
     setTimeout(() => {
       this.showSite = true;
     }, 4000);
-  },
-  asyncData() {
-    return {
-      rendering: process.server ? "server" : "client"
-    };
   }
 };
 </script>
@@ -309,7 +343,21 @@ export default {
   width: 100%;
   overflow: hidden;
 }
-.open-start {
+.navbar {
+  position: absolute;
+  width: 85vw;
+  top: 0;
+  margin: 60px 150px;
+}
+.navbar-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 80px;
+  width: 100%;
+}
+a:hover {
+  text-decoration: none;
 }
 .open-end {
   transition: transform 1s;
@@ -331,7 +379,7 @@ export default {
 }
 .trans-end {
   transition: opacity 0.7s, transform 1s;
-  transform: translateX(45vw);
+  transform: translateX(36vw);
   opacity: 1;
 }
 .top-title-container {
@@ -350,7 +398,7 @@ export default {
 }
 .feedback {
   position: absolute;
-  top: 41.8vw;
+  top: 43vw;
   right: 0;
   display: flex;
   justify-content: center;
@@ -363,6 +411,13 @@ export default {
   font-size: 1.25rem;
   font-weight: 500;
   color: #adadad;
+}
+.navbar-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  color: #fff;
 }
 .title-text {
   font-size: 1.4375rem;

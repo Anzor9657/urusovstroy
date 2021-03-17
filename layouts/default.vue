@@ -10,23 +10,6 @@
   font-family: "EurostyleLTStd";
   src: local("EurostyleLTStd"), url("../static/fonts/EurostileLT.ttf");
 }
-@keyframes blinker {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.3;
-  }
-}
-
-@-webkit-keyframes blinker {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.3;
-  }
-}
 html {
   font-family: Montserrat, "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

@@ -1,7 +1,12 @@
 <template>
   <b-navbar type="dark" variant="transparent" class="navbar">
     <NuxtLink to="/">
-      <b-img src="../static/images/logo.svg" fluid alt="logo" />
+      <b-img
+        src="../static/images/logos/logo.svg"
+        width="80px"
+        fluid
+        alt="logo"
+      />
     </NuxtLink>
 
     <b-navbar-toggle target="navbar-toggle-collapse">

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/construction", {data:[{rendering:"server"}],fetch:{},mutations:void 0});

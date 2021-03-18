@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <pre-loader :rolling-top="rollingTop" :rolling-right="rollingRight" />
-    <div>
+    <div v-show="rollingTop">
       <navigation-bar />
       <div class="padding-100">
         <b-img
@@ -244,7 +244,7 @@ export default {
     FooterContainer
   },
   head: {
-    title: "Home page",
+    title: "Urusov stroy",
     meta: [
       {
         hid: "description",
@@ -265,7 +265,7 @@ export default {
     }, 1000);
     setTimeout(() => {
       this.rollingTop = true;
-    }, 4000);
+    }, 3000);
   }
 };
 </script>

@@ -28,19 +28,21 @@
         <b-col cols="3" class="font-weight-bold">О компании</b-col>
       </b-row>
       <b-row align-h="center" class="padding-100">
-        <b-col cols="3" class="normal-text">
+        <b-col lg="3" md="9" class="normal-text margin-50">
           Команда профессионалов
         </b-col>
-        <b-col cols="6" class="big-text">
-          Амбициозная и уверенная в себе команда с четырехлетним успешным опытом
-          реализации проектов разного уровня сложности
+        <b-col lg="6" md="9">
+          <span class="big-text margin-50">
+            Амбициозная и уверенная в себе команда с четырехлетним успешным опытом
+            реализации проектов разного уровня сложности
+          </span>
           <b-row class="small-text mt-4">
-            <b-col>
+            <b-col lg="6" md="12" class="margin-50">
               Мы удовлетворяем эстетические потребности наших клиентов,
               предлагая уникальную методику работы и высококлассный сервис. Мы
               берем на себя все заботы начиная с замысла до самого новоселья
             </b-col>
-            <b-col>
+            <b-col lg="6" md="12" class="margin-50">
               Больше всего в нашей работе мы заботимся о функциональности
               интерьера, стремясь создать максимально удобные условия для жизни.
               Наш успех предопределен ответственным подходом к работе всей нашей
@@ -50,10 +52,10 @@
         </b-col>
       </b-row>
       <b-row align-h="center" align-v="center" class="padding-150">
-        <b-col cols="5" class="font-weight-bold">
-          <b-img src="../static/images/person.png" fluid alt="person image" />
+        <b-col xl="5" lg="5" md="9" class="font-weight-bold">
+          <b-img src="../static/images/person.png" class="w-100" alt="person image" />
         </b-col>
-        <b-col cols="5" class="font-weight-bold big-padding">
+        <b-col xl="4" lg="4" md="9" offset-xl="1" offset-lg="1" offset-md="0" class="font-weight-bold big-padding">
           <div class="padding-50">
             <div class="big-text">
               Урусов Алим Русланович
@@ -87,7 +89,7 @@
         <b-col cols="3" class="font-weight-bold">Наши услуги</b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-        <b-col cols="6">
+        <b-col xl="6" lg="6" md="9">
           <b-row class="padding-100">
             <b-col cols="5" class="mr-auto mb-5">
               <div class="font-weight-bold mb-3">
@@ -165,8 +167,8 @@
             </b-col>
           </b-row>
         </b-col>
-        <b-col cols="3">
-          <b-img src="../static/images/image_1.png" alt="image_1" />
+        <b-col xl="3" lg="3" md="9">
+          <b-img src="../static/images/image_1.png"  class="width-md-100" alt="image_1" />
         </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
@@ -175,10 +177,10 @@
         <b-col cols="3" class="font-weight-bold">Факты о компании</b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-        <b-col cols="5" class="font-weight-bold">
-          <b-img src="../static/images/image_2.png" alt="image_2 image" />
+        <b-col xl="5" lg="5" md="9" class="font-weight-bold overflow-hidden margin-100">
+          <b-img src="../static/images/image_2.png" class="width-md-100" alt="image_2 image" />
         </b-col>
-        <b-col cols="3" offset="1" class="font-weight-bold">
+        <b-col xl="3" lg="3" md="9" offset-xl="1" offset-lg="1" offset-md="0" class="font-weight-bold">
           <div class="padding-50 mb-5">
             <div class="normal-text mb-2">
               Индивидуально разработанный интерьер
@@ -198,7 +200,7 @@
               идеи будут воплощены в реальной жизни
             </div>
           </div>
-          <div class="padding-50 mb-5">
+          <div>
             <div class="normal-text mb-2">
               Соотношение цены и качества
             </div>

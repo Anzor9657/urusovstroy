@@ -4,8 +4,9 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+
 @font-face {
   font-family: "EurostyleLTStd";
   src: local("EurostyleLTStd"), url("../static/fonts/EurostileLT.ttf");

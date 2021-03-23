@@ -1,5 +1,5 @@
 <template>
-  <b-row class="footer big-padding gray-small-text-500">
+  <b-row class="footer all-padding-100 gray-small-text-500">
     <b-col cols="3">
       <p class="title-text text-black">Карта сайта</p>
       <p>Главная</p>

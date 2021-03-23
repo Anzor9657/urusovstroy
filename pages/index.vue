@@ -2,8 +2,8 @@
   <div class="main">
     <pre-loader :rolling-top="rollingTop" :rolling-right="rollingRight" />
     <div v-show="rollingTop">
-      <navigation-bar />
-      <div class="padding-100">
+      <navigation-bar v-show="false"/>
+      <div class="padding-100" v-show="false">
         <b-img
           src="../static/images/big_image.png"
           fluid
@@ -22,10 +22,10 @@
           </div>
         </div>
       </div>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">01</b-col>
-        <b-col class="font-weight-bold">Кто мы</b-col>
-        <b-col class="font-weight-bold">О компании</b-col>
+      <b-row  align-h="center" class="padding-150">
+        <b-col cols="3" class="font-weight-bold">01</b-col>
+        <b-col cols="3" class="font-weight-bold">Кто мы</b-col>
+        <b-col cols="3" class="font-weight-bold">О компании</b-col>
       </b-row>
       <b-row align-h="center" class="padding-100">
         <b-col cols="3" class="normal-text">
@@ -81,15 +81,15 @@
           </div>
         </b-col>
       </b-row>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">02</b-col>
-        <b-col class="font-weight-bold">Что мы предлагаем</b-col>
-        <b-col class="font-weight-bold">Наши услуги</b-col>
+      <b-row  align-h="center" class="padding-150">
+        <b-col cols="3" class="font-weight-bold">02</b-col>
+        <b-col cols="3" class="font-weight-bold">Что мы предлагаем</b-col>
+        <b-col cols="3" class="font-weight-bold">Наши услуги</b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-        <b-col cols="6" offset="1">
+        <b-col cols="6">
           <b-row class="padding-100">
-            <b-col cols="5" class="mr-auto">
+            <b-col cols="5" class="mr-auto mb-5">
               <div class="font-weight-bold mb-3">
                 01
               </div>
@@ -101,7 +101,7 @@
                 объектов с полным пакетом документов
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col cols="5" class="mr-auto mb-5">
               <div class="font-weight-bold mb-3">
                 02
               </div>
@@ -113,7 +113,7 @@
                 объектов с полным пакетом документов
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col cols="5" class="mr-auto mb-5">
               <div class="font-weight-bold mb-3">
                 03
               </div>
@@ -127,7 +127,7 @@
                 дом европейского уровня
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col cols="5" class="mr-auto mb-5">
               <div class="font-weight-bold mb-3">
                 04
               </div>
@@ -139,7 +139,7 @@
                 одной компании
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col cols="5" class="mr-auto mb-5">
               <div class="font-weight-bold mb-3">
                 05
               </div>
@@ -151,7 +151,7 @@
                 индивидуальным эскизам
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col cols="5" class="mr-auto mb-5">
               <div class="font-weight-bold mb-3">
                 06
               </div>
@@ -165,21 +165,21 @@
             </b-col>
           </b-row>
         </b-col>
-        <b-col cols="5">
-          <b-img src="../static/images/image_1.png" fluid alt="image_1" />
+        <b-col cols="3">
+          <b-img src="../static/images/image_1.png" alt="image_1" />
         </b-col>
       </b-row>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">03</b-col>
-        <b-col class="font-weight-bold">Почему мы</b-col>
-        <b-col class="font-weight-bold">Факты о компании</b-col>
+      <b-row align-h="center" class="padding-150">
+        <b-col cols="3" class="font-weight-bold">03</b-col>
+        <b-col cols="3" class="font-weight-bold">Почему мы</b-col>
+        <b-col cols="3" class="font-weight-bold">Факты о компании</b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
         <b-col cols="5" class="font-weight-bold">
-          <b-img src="../static/images/image_2.png" fluid alt="image_2 image" />
+          <b-img src="../static/images/image_2.png" alt="image_2 image" />
         </b-col>
-        <b-col cols="4" offset="1" class="font-weight-bold">
-          <div class="padding-50">
+        <b-col cols="3" offset="1" class="font-weight-bold">
+          <div class="padding-50 mb-5">
             <div class="normal-text mb-2">
               Индивидуально разработанный интерьер
             </div>
@@ -189,7 +189,7 @@
               удобными для повседневной жизни
             </div>
           </div>
-          <div class="padding-50">
+          <div class="padding-50 mb-5">
             <div class="normal-text mb-2">
               Понимание строительных технологий
             </div>
@@ -198,7 +198,7 @@
               идеи будут воплощены в реальной жизни
             </div>
           </div>
-          <div class="padding-50">
+          <div class="padding-50 mb-5">
             <div class="normal-text mb-2">
               Соотношение цены и качества
             </div>
@@ -209,13 +209,13 @@
           </div>
         </b-col>
       </b-row>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">04</b-col>
-        <b-col class="font-weight-bold">Вопросы</b-col>
-        <b-col class="font-weight-bold">Свяжись с нами</b-col>
+      <b-row align-h="center" class="padding-150">
+        <b-col cols="3" class="font-weight-bold">04</b-col>
+        <b-col cols="3" class="font-weight-bold">Вопросы</b-col>
+        <b-col cols="3" class="font-weight-bold">Свяжись с нами</b-col>
       </b-row>
-      <b-row class="padding-150">
-        <b-col cols="5" offset="2" class="mr-auto">
+      <b-row align-h="center" class="padding-150">
+        <b-col cols="9">
           <div class="big-text padding-50">
             Остались вопросы?
             <br />

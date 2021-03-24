@@ -82,3 +82,22 @@
 .text-gray {
   color: #6d6d6d;
 }
+.top-title-container {
+  font-size: 2.25rem;
+}
+@media (max-width: 1150px) {
+  .name-title-text {
+    font-size: 3.4375rem;
+  }
+  .top-title-container {
+    font-size: 1.5625rem;
+  }
+}
+@media (max-width: 800px) {
+  .name-title-text {
+    font-size: 1.6875rem;
+  }
+  .top-title-container {
+    font-size: 1rem;
+  }
+}

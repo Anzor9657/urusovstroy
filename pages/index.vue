@@ -2,26 +2,25 @@
   <div class="main">
     <pre-loader :rolling-top="rollingTop" :rolling-right="rollingRight" />
     <div v-show="rollingTop">
-      <navigation-bar v-show="false"/>
-      <div class="padding-100" v-show="false">
-        <b-img
-          src="../static/images/big_image.png"
-          fluid
-          alt="Responsive image"
-        />
-        <div class="top-title-container">
-          <span class="name-title-text">urusovstroy</span>
-          <span class="font-weight-500">от идеи до реализации</span>
-        </div>
-        <div class="feedback">
-          <div class="d-flex flex-column">
+      <navigation-bar />
+      <b-container fluid class="margin-all-100 back-img">
+        <b-row align-h="center">
+          <b-col xl="11" lg="10" md="10" sm="8" offset-xl="1" offset-lg="2" offset-md="2" offset-sm="0" align-self="center" class="height-79 d-flex align-items-center">
+            <div class="top-title-container">
+              <span class="name-title-text">urusovstroy</span>
+              <span class="font-weight-500">от идеи до реализации</span>
+            </div>
+          </b-col>
+          <b-col xl="3" lg="3" md="4" sm="8" offset-xl="9" offset-lg="9" offset-md="4" offset-sm="2" class="feedback">
             <a href="tel:89280807670">
               <span class="title-text">Связаться с нами</span>
             </a>
             <span class="action">Заказать звонок сейчас</span>
-          </div>
-        </div>
-      </div>
+          </b-col>
+          <b-col xl="0" lg="0" md="4" sm="2" class="feedback">
+          </b-col>
+        </b-row>
+      </b-container>
       <b-row  align-h="center" class="padding-150">
         <b-col cols="3" class="font-weight-bold">01</b-col>
         <b-col cols="3" class="font-weight-bold">Кто мы</b-col>
@@ -275,29 +274,31 @@ export default {
 .main {
   width: 100%;
   overflow: hidden;
+  .back-img {
+    background: url(../static/images/big_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
 }
 .top-title-container {
-  position: absolute;
-  top: 20vw;
-  left: 9vw;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   color: #fff;
-  font-size: 2.25rem;
 }
 .feedback {
-  position: absolute;
-  top: 43vw;
-  right: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  width: 33vw;
-  height: 14vw;
+  justify-content: center;
+  width: 100%;
+  height: 21vh;
   background-color: #fff;
 }
-.feedback div .action {
+.feedback .action {
   font-size: 1.25rem;
   font-weight: 500;
   color: #adadad;

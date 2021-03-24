@@ -1,1 +1,1 @@
-rm -rf public_html/
+yarn generate && rm -rf public_html && mv dist public_html && git add . && git commit -m 'added public_html' && git push

@@ -22,7 +22,6 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   max-width: 1920px;
-  max-height: 1080px;
 }
 ::-webkit-scrollbar {
   display: none;

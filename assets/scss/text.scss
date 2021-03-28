@@ -3,6 +3,7 @@
   font-size: 1rem;
   line-height: 1.25rem;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
   color: #fff;
 }
 .footer-text {
@@ -16,7 +17,7 @@
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.25rem;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #6d6d6d;
 }
@@ -24,7 +25,7 @@
   font-weight: 600;
   font-size: 0.8125rem;
   line-height: 1.25rem;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #6d6d6d;
 }
@@ -67,7 +68,7 @@
   font-weight: 600;
   font-size: 0.8125rem;
   line-height: 1.25rem;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #605f5f;
 }
@@ -85,12 +86,27 @@
 .top-title-container {
   font-size: 2.25rem;
 }
+.feedback .action {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #adadad;
+}
 @media (max-width: 1150px) {
   .name-title-text {
     font-size: 3.4375rem;
   }
   .top-title-container {
     font-size: 1.5625rem;
+  }
+  .feedback {
+    .action {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #adadad;
+    }
+    .title-text {
+      font-size: 1.125rem;
+    }
   }
 }
 @media (max-width: 800px) {
@@ -99,5 +115,23 @@
   }
   .top-title-container {
     font-size: 1rem;
+  }
+  .feedback {
+    .action {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #adadad;
+    }
+    .title-text {
+      font-size: 1.125rem;
+    }
+  }
+  .footer-text {
+    font-size: 1.125rem;
+  }
+  .footer {
+    .text-right {
+      text-align: left !important;
+    }
   }
 }

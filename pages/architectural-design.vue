@@ -196,6 +196,7 @@ a:hover {
   top: 20vw;
   left: 9vw;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
   display: flex;
   flex-direction: column;
   color: #fff;

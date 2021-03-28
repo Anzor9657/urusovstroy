@@ -3,7 +3,15 @@
     <Nuxt />
   </div>
 </template>
+<script>
+import Vue from 'vue';
+import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue';
 
+Vue.use(BootstrapVue);
+Vue.use(BootstrapVueIcons);
+
+export default Vue;
+</script>
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
 

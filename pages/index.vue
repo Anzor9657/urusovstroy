@@ -13,7 +13,8 @@
           </b-col>
           <b-col xl="3" lg="3" md="4" sm="8" offset-xl="9" offset-lg="9" offset-md="4" offset-sm="2" class="feedback">
             <a href="tel:89280807670">
-              <span class="title-text">Связаться с нами</span>
+              <span class="title-text" @mouseenter="showTopArrow = true" @mouseleave="showTopArrow = false">Связаться с нами</span>
+              <b-icon v-if="showTopArrow" font-scale="1.5" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
             </a>
             <span class="action">Заказать звонок сейчас</span>
           </b-col>
@@ -90,37 +91,44 @@
       <b-row align-h="center" class="padding-150">
         <b-col xl="6" lg="6" sm="9" md="9">
           <b-row class="padding-100">
-            <b-col cols="5" class="mr-auto mb-5">
+            <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
               <div class="font-weight-bold mb-3">
                 01
               </div>
-              <div class="normal-text mb-2">
-                Дизайн интерьера
+              <div class="normal-text mb-2" @mouseenter="show1 = true" @mouseleave="show1 = false">
+                <NuxtLink class="text-black" to="/interior-design">
+                  <span>Дизайн интерьера</span>
+                  <b-icon v-if="show1" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
+                </NuxtLink>
               </div>
               <div class="small-text padding-50">
                 Выполняем комплексное проектирование коммерческих и жилых
                 объектов с полным пакетом документов
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto mb-5">
+            <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
               <div class="font-weight-bold mb-3">
                 02
               </div>
-              <div class="normal-text mb-2">
-                Проектирование
+              <div class="normal-text mb-2" @mouseenter="show2 = true" @mouseleave="show2 = false">
+                <NuxtLink class="text-black" to="/">
+                  <span>Проектирование</span>
+                  <b-icon v-if="show2" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
+                </NuxtLink>
               </div>
               <div class="small-text padding-50">
                 Выполняем комплексное проектирование коммерческих и жилых
                 объектов с полным пакетом документов
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto mb-5">
+            <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
               <div class="font-weight-bold mb-3">
                 03
               </div>
-              <div class="normal-text mb-2">
+              <div class="normal-text mb-2" @mouseenter="show3 = true" @mouseleave="show3 = false">
                 <NuxtLink class="text-black" to="/construction">
-                  Строительство
+                  <span>Строительство</span>
+                  <b-icon v-if="show3" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
                 </NuxtLink>
               </div>
               <div class="small-text padding-50">
@@ -128,36 +136,45 @@
                 дом европейского уровня
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto mb-5">
+            <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
               <div class="font-weight-bold mb-3">
                 04
               </div>
-              <div class="normal-text mb-2">
-                Ремонт
+              <div class="normal-text mb-2" @mouseenter="show4 = true" @mouseleave="show4 = false">
+                <NuxtLink class="text-black" to="/">
+                  <span>Ремонт</span>
+                  <b-icon v-if="show4" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
+                </NuxtLink>
               </div>
               <div class="small-text padding-50">
                 Электрики, сантехники, плиточники, моляры. Лучшие специалисты в
                 одной компании
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto mb-5">
+            <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
               <div class="font-weight-bold mb-3">
                 05
               </div>
-              <div class="normal-text mb-2">
-                Корпусная мебель
+              <div class="normal-text mb-2" @mouseenter="show5 = true" @mouseleave="show5 = false">
+                <NuxtLink class="text-black" to="/">
+                  <span>Корпусная мебель</span>
+                  <b-icon v-if="show5" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
+                </NuxtLink>
               </div>
               <div class="small-text padding-50">
                 Мы используем в наших проектах мебель, выполненную по
                 индивидуальным эскизам
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto mb-5">
+            <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
               <div class="font-weight-bold mb-3">
                 06
               </div>
-              <div class="normal-text mb-2">
-                Интерьерный салон
+              <div class="normal-text mb-2" @mouseenter="show6 = true" @mouseleave="show6 = false">
+                <NuxtLink class="text-black" to="/">
+                  <span>Интерьерный салон</span>
+                  <b-icon v-if="show6" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
+                </NuxtLink>
               </div>
               <div class="small-text padding-50">
                 Эксклюзивные материалы дают нам возможность делать уникальный
@@ -180,7 +197,7 @@
           <b-img src="../static/images/image_2.png" class="width-md-100" alt="image_2 image" />
         </b-col>
         <b-col xl="3" lg="3" sm="9" md="9" offset-xl="1" offset-lg="1" offset-sm="0" offset-md="0" class="font-weight-bold">
-          <div class="padding-50 mb-5">
+          <div class="padding-50 mb-3">
             <div class="normal-text mb-2">
               Индивидуально разработанный интерьер
             </div>
@@ -190,7 +207,7 @@
               удобными для повседневной жизни
             </div>
           </div>
-          <div class="padding-50 mb-5">
+          <div class="padding-50 mb-3">
             <div class="normal-text mb-2">
               Понимание строительных технологий
             </div>
@@ -254,6 +271,17 @@ export default {
       }
     ]
   },
+  data () {
+    return {
+      showTopArrow: false,
+      show1: false,
+      show2: false,
+      show3: false,
+      show4: false,
+      show5: false,
+      show6: false
+    }
+  },
   asyncData() {
     return {
       rollingRight: !process.server,
@@ -284,6 +312,7 @@ export default {
   }
 }
 .top-title-container {
+  padding-top: 170px;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   display: flex;

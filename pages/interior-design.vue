@@ -164,24 +164,17 @@
       <b-row align-h="center" class="padding-150 pt-5">
           <b-col cols="9" class="font-weight-bold">
             <b-row cols-xl="3" cols-lg="3" cols-md="1" cols-sm="1">
-              <b-col class="mb-4">
-                <card-item />
-              </b-col>
-              <b-col class="mb-4">
-                <card-item />
-              </b-col>
-              <b-col class="mb-4">
-                <card-item />
-              </b-col>
-              <b-col class="mb-4">
-                <card-item />
-              </b-col>
-              <b-col class="mb-4">
-                <card-item />
-              </b-col>
-              <b-col class="mb-4">
-                <card-item />
-              </b-col>
+              <template v-for="(item, index) of cards">
+                <b-col class="mb-4" :key="index" v-on:click="cardContent=item">
+                  <card-item
+                    v-b-modal.modal-center
+                    :title="item.title"
+                    :description="item.description"
+                    :price="item.price"
+                    :image="item.image"
+                  />
+                </b-col>
+              </template>
             </b-row>
           </b-col>
       </b-row>
@@ -206,19 +199,22 @@
       </b-row>
       <footer-container />
     </div>
+    <modal-center :content="cardContent" />
   </div>
 </template>
 <script>
-import PreLoader from "../components/PreLoader";
-import NavigationBar from "../components/NavigationBar";
+import PreLoader from '../components/PreLoader';
+import NavigationBar from '../components/NavigationBar';
 import CardItem from '../components/CardItem.vue';
-import FooterContainer from "../components/FooterContainer";
+import ModalCenter from '../components/ModalCenter';
+import FooterContainer from '../components/FooterContainer';
 
 export default {
   components: {
     PreLoader,
     NavigationBar,
     FooterContainer,
+    ModalCenter,
     CardItem
   },
   head: {
@@ -239,7 +235,16 @@ export default {
       show3: false,
       show4: false,
       show5: false,
-      show6: false
+      show6: false,
+      cards: [
+        { title: 'Название проекта 1' },
+        { title: 'Название проекта 2' },
+        { title: 'Название проекта 3' },
+        { title: 'Название проекта 4' },
+        { title: 'Название проекта 5' },
+        { title: 'Название проекта 6' }
+      ],
+      cardContent: null
     }
   },
   asyncData() {

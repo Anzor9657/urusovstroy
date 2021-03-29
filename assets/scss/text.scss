@@ -91,6 +91,16 @@
   font-weight: 500;
   color: #adadad;
 }
+.card-primary {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.card-secondary {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
 @media (max-width: 1150px) {
   .name-title-text {
     font-size: 3.4375rem;
@@ -109,12 +119,21 @@
     }
   }
 }
+@media (max-width: 1366px) {
+  .top-title-text {
+    font-size: 3.4375rem;
+  }
+}
+
 @media (max-width: 800px) {
   .name-title-text {
     font-size: 1.6875rem;
   }
   .top-title-container {
     font-size: 1rem;
+  }
+  .top-title-text {
+    font-size: 1.6875rem;
   }
   .feedback {
     .action {

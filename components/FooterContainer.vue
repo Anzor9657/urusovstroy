@@ -19,7 +19,7 @@
     <b-col xl="6" lg="6" sm="9" md="9" class="text-right">
       <div class="d-flex flex-column justify-content-between h-100">
         <div>
-          <p>8 (928) 719-66-38</p>
+          <a href="tel:89287196638" class="gray-small-text-500"><p>8 (928) 719-66-38</p></a>
           <p>Улица Ахохова, 183, Нальчик</p>
           <p>urusov-stroy@gmail.com</p>
         </div>
@@ -35,8 +35,17 @@
 .footer {
   border-top: 1px solid #e5e5e5;
   text-transform: none;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: inherit !important;
+    }
+  }
   p {
-    margin-bottom: 14px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
   }
   p.footer-text {
     margin-bottom: 0;

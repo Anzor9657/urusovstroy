@@ -158,6 +158,35 @@
       </b-row>
       <b-row align-h="center" class="padding-150">
         <b-col cols="3" class="font-weight-bold">04</b-col>
+        <b-col cols="3" class="font-weight-bold">Примеры работ</b-col>
+        <b-col cols="3" class="font-weight-bold">Готовые проекты</b-col>
+      </b-row>
+      <b-row align-h="center" class="padding-150 pt-5">
+          <b-col cols="9" class="font-weight-bold">
+            <b-row cols-xl="3" cols-lg="3" cols-md="1" cols-sm="1">
+              <b-col class="mb-4">
+                <card-item />
+              </b-col>
+              <b-col class="mb-4">
+                <card-item />
+              </b-col>
+              <b-col class="mb-4">
+                <card-item />
+              </b-col>
+              <b-col class="mb-4">
+                <card-item />
+              </b-col>
+              <b-col class="mb-4">
+                <card-item />
+              </b-col>
+              <b-col class="mb-4">
+                <card-item />
+              </b-col>
+            </b-row>
+          </b-col>
+      </b-row>
+      <b-row align-h="center" class="padding-150">
+        <b-col cols="3" class="font-weight-bold">05</b-col>
         <b-col cols="3" class="font-weight-bold">Вопросы</b-col>
         <b-col cols="3" class="font-weight-bold">Свяжись с нами</b-col>
       </b-row>
@@ -182,13 +211,15 @@
 <script>
 import PreLoader from "../components/PreLoader";
 import NavigationBar from "../components/NavigationBar";
+import CardItem from '../components/CardItem.vue';
 import FooterContainer from "../components/FooterContainer";
 
 export default {
   components: {
     PreLoader,
     NavigationBar,
-    FooterContainer
+    FooterContainer,
+    CardItem
   },
   head: {
     title: "Urusov stroy",

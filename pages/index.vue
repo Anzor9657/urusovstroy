@@ -88,7 +88,7 @@
         <b-col cols="3" class="font-weight-bold">Что мы предлагаем</b-col>
         <b-col cols="3" class="font-weight-bold">Наши услуги</b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
+      <b-row align-h="center" class="padding-150 links">
         <b-col xl="6" lg="6" sm="9" md="9">
           <b-row class="padding-100">
             <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
@@ -318,6 +318,15 @@ export default {
   display: flex;
   flex-direction: column;
   color: #fff;
+}
+.links {
+  a span {
+    margin-right: 10px;
+  }
+  .b-icon {
+    position: absolute;
+    margin-top: 10px;
+  }
 }
 .feedback {
   display: flex;

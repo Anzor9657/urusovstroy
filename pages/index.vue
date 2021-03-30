@@ -5,7 +5,7 @@
       <navigation-bar />
       <b-container fluid class="margin-all-100 back-img">
         <b-row align-h="center">
-          <b-col xl="11" lg="11" md="10" sm="8" offset-xl="1" offset-lg="1" offset-md="2" offset-sm="0" align-self="center" class="height-79 d-flex align-items-center">
+          <b-col xl="11" lg="11" md="10" sm="11" offset-xl="1" offset-lg="1" offset-md="2" offset-sm="0" align-self="center" class="height-79 d-flex align-items-center">
             <div class="top-title-container">
               <span class="name-title-text">urusovstroy</span>
               <span class="font-weight-500">от идеи до реализации</span>
@@ -22,27 +22,31 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-row  align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">01</b-col>
-        <b-col cols="3" class="font-weight-bold">Кто мы</b-col>
-        <b-col cols="3" class="font-weight-bold">О компании</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">01</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Кто мы</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">О компании</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-100">
-        <b-col lg="3" sm="9" md="9" class="normal-text margin-50">
+        <b-col xl="3" lg="3" sm="10" md="10" class="normal-text margin-50">
           Команда профессионалов
         </b-col>
-        <b-col lg="6" sm="9" md="9">
+        <b-col xl="6" lg="6" sm="10" md="10">
           <span class="big-text margin-50">
             Амбициозная и уверенная в себе команда с четырехлетним успешным опытом
             реализации проектов разного уровня сложности
           </span>
           <b-row class="small-text mt-4">
-            <b-col lg="6" sm="12" md="12" class="margin-50">
+            <b-col xl="6" lg="6" sm="12" md="12" class="margin-50">
               Мы удовлетворяем эстетические потребности наших клиентов,
               предлагая уникальную методику работы и высококлассный сервис. Мы
               берем на себя все заботы начиная с замысла до самого новоселья
             </b-col>
-            <b-col lg="6" sm="12" md="12" class="margin-50">
+            <b-col xl="6" lg="6" sm="12" md="12" class="margin-50">
               Больше всего в нашей работе мы заботимся о функциональности
               интерьера, стремясь создать максимально удобные условия для жизни.
               Наш успех предопределен ответственным подходом к работе всей нашей
@@ -52,10 +56,10 @@
         </b-col>
       </b-row>
       <b-row align-h="center" align-v="center" class="padding-150">
-        <b-col xl="5" lg="5" sm="9" md="9" class="font-weight-bold">
+        <b-col xl="5" lg="5" sm="10" md="10" class="font-weight-bold">
           <b-img src="../static/images/person.png" class="w-100" alt="person image" />
         </b-col>
-        <b-col xl="4" lg="4" sm="9" md="9" offset-xl="1" offset-lg="1" offset-sm="0" offset-md="0" class="font-weight-bold big-padding">
+        <b-col xl="4" lg="4" sm="10" md="10" offset-xl="1" offset-lg="1" offset-sm="0" offset-md="0" class="font-weight-bold big-padding">
           <div class="padding-50">
             <div class="big-text">
               Урусов Алим Русланович
@@ -83,13 +87,17 @@
           </div>
         </b-col>
       </b-row>
-      <b-row  align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">02</b-col>
-        <b-col cols="3" class="font-weight-bold">Что мы предлагаем</b-col>
-        <b-col cols="3" class="font-weight-bold">Наши услуги</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">02</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Что мы предлагаем</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Наши услуги</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150 links">
-        <b-col xl="6" lg="6" sm="9" md="9">
+        <b-col xl="6" lg="6" sm="10" md="10">
           <b-row class="padding-100">
             <b-col xl="5" lg="5" sm="12" md="12" class="mr-auto mb-3">
               <div class="font-weight-bold mb-3">
@@ -183,20 +191,24 @@
             </b-col>
           </b-row>
         </b-col>
-        <b-col xl="3" lg="3" sm="9" md="9">
+        <b-col xl="3" lg="3" sm="10" md="10">
           <b-img src="../static/images/image_1.png"  class="width-md-100" alt="image_1" />
         </b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">03</b-col>
-        <b-col cols="3" class="font-weight-bold">Почему мы</b-col>
-        <b-col cols="3" class="font-weight-bold">Факты о компании</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">03</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Почему мы</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Факты о компании</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-        <b-col xl="5" lg="5" sm="9" md="9" class="font-weight-bold overflow-hidden margin-100">
+        <b-col xl="5" lg="5" sm="10" md="10" class="font-weight-bold overflow-hidden margin-100">
           <b-img src="../static/images/image_2.png" class="width-md-100" alt="image_2 image" />
         </b-col>
-        <b-col xl="3" lg="3" sm="9" md="9" offset-xl="1" offset-lg="1" offset-sm="0" offset-md="0" class="font-weight-bold">
+        <b-col xl="3" lg="3" sm="10" md="10" offset-xl="1" offset-lg="1" offset-sm="0" offset-md="0" class="font-weight-bold">
           <div class="padding-50 mb-3">
             <div class="normal-text mb-2">
               Индивидуально разработанный интерьер
@@ -227,13 +239,17 @@
           </div>
         </b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">04</b-col>
-        <b-col cols="3" class="font-weight-bold">Вопросы</b-col>
-        <b-col cols="3" class="font-weight-bold">Свяжись с нами</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">04</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Вопросы</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Свяжись с нами</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-        <b-col cols="9">
+        <b-col xl="9" lg="9" sm="10" md="10">
           <div class="big-text padding-50">
             Остались вопросы?
             <br />

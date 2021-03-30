@@ -154,3 +154,11 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .big-text {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 160%;
+  }
+}

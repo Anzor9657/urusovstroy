@@ -11,7 +11,8 @@
 
     <b-navbar-toggle target="navbar-toggle-collapse">
       <template #default="{}">
-        <b-img src="../static/images/navbar_icon.svg" alt="navbar icon" />
+        <div>
+        </div>
       </template>
     </b-navbar-toggle>
 
@@ -25,6 +26,18 @@
         <NuxtLink to="/">интерьерный салон</NuxtLink> -->
       </b-navbar-nav>
     </b-collapse>
+
+    <div class="pa-4 outline-none" v-b-modal.nav-modal>
+      <b-img src="../static/images/navbar_icon.svg" class="outline-none" alt="navbar icon" />
+    </div>
+    <b-modal id="nav-modal" hide-footer>
+      <div class="modal-links">
+        <NuxtLink to="/">главная</NuxtLink>
+        <NuxtLink to="/interior-design">дизайн интерьера</NuxtLink>
+        <NuxtLink to="/architectural-design">архитектурное проектирование</NuxtLink>
+        <NuxtLink to="/construction">строительство</NuxtLink>
+      </div>
+    </b-modal>
   </b-navbar>
 </template>
 <style lang="scss" scoped>
@@ -49,6 +62,26 @@
   }
   button {
     border: none;
+  }
+}
+.modal-links {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  a {
+    width: max-content;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  a:hover {
+    text-decoration: none !important;
+    color: #fff !important;
   }
 }
 @media (max-width: 800px) {

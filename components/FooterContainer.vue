@@ -1,6 +1,6 @@
 <template>
   <b-row class="footer all-padding-100 gray-small-text-500">
-    <b-col xl="3" lg="3" sm="9" md="9" class="margin-100">
+    <b-col xl="3" lg="3" sm="12" md="12" class="margin-100">
       <p class="title-text text-black">Карта сайта</p>
       <p>Главная</p>
       <p>Наша команда</p>
@@ -11,12 +11,12 @@
       <p>Корпусная мебель</p>
       <p>Интерьерный салон</p>
     </b-col>
-    <b-col xl="3" lg="3" sm="9" md="9">
+    <b-col xl="3" lg="3" sm="12" md="12">
       <p class="title-text text-black">Мы в соцсетях</p>
       <p>Instagram</p>
       <p>YouTube</p>
     </b-col>
-    <b-col xl="6" lg="6" sm="9" md="9" class="text-right">
+    <b-col xl="6" lg="6" sm="12" md="12" class="text-right">
       <div class="d-flex flex-column justify-content-between h-100">
         <div>
           <a href="tel:89287196638" class="gray-small-text-500"><p>8 (928) 719-66-38</p></a>
@@ -24,7 +24,7 @@
           <p>urusov-stroy@gmail.com</p>
         </div>
         <div>
-          <p class="footer-text text-black">URUSOVSTROY 2021</p>
+          <p class="footer-text text-black mb-3">URUSOVSTROY 2021</p>
           <p>Made by DOT.</p>
         </div>
       </div>

@@ -4,10 +4,8 @@
     <div v-show="rollingTop">
       <navigation-bar />
       <b-container fluid class="margin-all-100 back-img">
-        <b-row class="">
-        </b-row>
         <b-row align-h="center">
-          <b-col xl="11" lg="11" md="10" sm="8" offset-xl="1" offset-lg="1" offset-md="2" offset-sm="0" align-self="center" class="height-79 d-flex align-items-center">
+          <b-col xl="11" lg="11" md="10" sm="11" offset-xl="1" offset-lg="1" offset-md="2" offset-sm="0" align-self="center" class="height-79 d-flex align-items-center">
             <div class="top-title-container">
           <span class="top-title-text">дизайн дома<br />вашей мечты</span>
         </div>
@@ -23,16 +21,20 @@
           </b-col>
         </b-row>
       </b-container>
-      <b-row  align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">01</b-col>
-        <b-col cols="3" class="font-weight-bold">Услуга</b-col>
-        <b-col cols="3" class="font-weight-bold">Дизайн интерьера</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">01</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Услуга</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Дизайн интерьера</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-100">
-        <b-col lg="3" sm="9" md="9" class="normal-text margin-50">
+        <b-col xl="3" lg="3" sm="10" md="10" class="normal-text margin-50">
           Разработка дизайн-проекта
         </b-col>
-        <b-col lg="6" sm="9" md="9">
+        <b-col xl="6" lg="6" sm="10" md="10">
           <span class="big-text margin-50">
             Засчет детального сбора информации и контроляс нашей стороны, интерьер в результате получится таким, как Вы пожелаете
           </span>
@@ -46,15 +48,19 @@
           </b-row>
         </b-col>
       </b-row>
-      <b-row  align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">02</b-col>
-        <b-col cols="3" class="font-weight-bold">Как мы работаем</b-col>
-        <b-col cols="3" class="font-weight-bold">Этапы работ</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">02</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Как мы работаем</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Этапы работ</b-col>
+          </b-row>
+        </b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
-          <b-col cols="9" class="font-weight-bold">
+      <b-row align-h="center" class="padding-50">
+          <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
             <b-row align-h="start">
-               <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   01
                 </div>
@@ -65,7 +71,7 @@
                   Выясняем особенности вашего образа жизни и технические условия объекта. Это позволяет сделать проект без лишних переделок и экономит ваше время
                 </div>
               </b-col>
-              <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   02
                 </div>
@@ -76,7 +82,7 @@
                   Разделяем на функциональные зоны помещения объекта, основываясь на его габаритах и ваших предпочтениях
                 </div>
               </b-col>
-              <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   03
                 </div>
@@ -87,7 +93,7 @@
                   Подготовим концепции интерьера: цветовое решение, мебель и материалы. Поедем с вами по магазинам, чтобы определить основную комплектацию
                 </div>
               </b-col>
-              <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   04
                 </div>
@@ -98,7 +104,7 @@
                   Подготовим фотореалистичные изображения вашего будущего интерьера, чтобы Вы могли оценить сочетание цветов, материалов, мебели и декора
                 </div>
               </b-col>
-              <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   05
                 </div>
@@ -112,15 +118,19 @@
             </b-row>
           </b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">03</b-col>
-        <b-col cols="3" class="font-weight-bold">Кое-что еще</b-col>
-        <b-col cols="3" class="font-weight-bold">Дополнительные услуги</b-col>
+      <b-row  align-h="center" class="padding-150">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">03</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Кое-что еще</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Дополнительные услуги</b-col>
+          </b-row>
+        </b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
-          <b-col cols="9" class="font-weight-bold">
+      <b-row align-h="center" class="padding-100">
+          <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
             <b-row>
-               <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   01
                 </div>
@@ -131,7 +141,7 @@
                   4 раза в месяц приезжаем на объект и проверяем, чтобы рабочие и другие участники проекта четко следовали чертежам. Консультируем и даем пояснения
                 </div>
               </b-col>
-              <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   02
                 </div>
@@ -142,7 +152,7 @@
                   Найдем подрядчиков и поставщиков. Организуем оплату и доставку товара. Консультируем по приемке и проверке товаров на объекте
                 </div>
               </b-col>
-              <b-col xl="4" lg="4" sm="5" md="10" class="mb-3">
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
                 <div class="font-weight-bold mb-3">
                   03
                 </div>
@@ -156,13 +166,17 @@
             </b-row>
           </b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">04</b-col>
-        <b-col cols="3" class="font-weight-bold">Примеры работ</b-col>
-        <b-col cols="3" class="font-weight-bold">Готовые проекты</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">04</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Примеры работ</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Готовые проекты</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150 pt-5">
-          <b-col cols="9" class="font-weight-bold">
+          <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
             <b-row cols-xl="3" cols-lg="3" cols-md="1" cols-sm="1">
               <template v-for="(item, index) of cards">
                 <b-col class="mb-4" :key="index" v-on:click="cardContent=item">
@@ -178,13 +192,17 @@
             </b-row>
           </b-col>
       </b-row>
-      <b-row align-h="center" class="padding-150">
-        <b-col cols="3" class="font-weight-bold">05</b-col>
-        <b-col cols="3" class="font-weight-bold">Вопросы</b-col>
-        <b-col cols="3" class="font-weight-bold">Свяжись с нами</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">05</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Вопросы</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Свяжись с нами</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-        <b-col cols="9">
+        <b-col xl="9" lg="9" sm="10" md="10">
           <div class="big-text padding-50">
             Остались вопросы?
             <br />

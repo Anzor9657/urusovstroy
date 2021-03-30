@@ -14,23 +14,21 @@
       <div class="mr-4">
         <b-img
           src="../static/images/logos/white_U.svg"
-          width="80px"
           alt="white U"
           class="logo-U"
         />
         <b-img
           src="../static/images/logos/white_S.svg"
-          width="80px"
           alt="white S"
           class="logo-S"
         />
       </div>
       <div class="big-text action-wrapper">
-        <span class="name-title-text">urusovstroy</span><br />
-        <span class="blink normal-text">
-          Сайт в процессе разработки... <br />
-          Некоторые функции недоступны
-        </span>
+        <p class="name-title-text">urusovstroy</p>
+        <div class="blink normal-text">
+          <p>Сайт в процессе разработки...</p>
+          <p>Некоторые функции недоступны</p>
+        </div>
       </div>
     </div>
   </div>
@@ -52,7 +50,7 @@ export default {
 <style lang="scss" scoped>
 .action-wrapper {
   opacity: 0;
-  padding-top: 110px;
+  padding-top: 60px;
 }
 .rolling-top {
   transition: transform 1s;
@@ -95,5 +93,18 @@ export default {
 .blink {
   animation: blinker infinite ease-in-out 3s;
   -webkit-animation: blinker infinite ease-in-out 1s;
+}
+img {
+  width: 80px;
+}
+@media (max-width: 400px) {
+  img {
+    width: 40px;
+  }
+  .normal-text {
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 0.5rem;
+  }
 }
 </style>

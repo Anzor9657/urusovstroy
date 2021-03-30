@@ -11,7 +11,7 @@
         'previw-animation': rollingRight
       }"
     >
-      <div class="mr-4">
+      <div class="images">
         <b-img
           src="../static/images/logos/white_U.svg"
           alt="white U"
@@ -67,6 +67,9 @@ export default {
   z-index: 2;
   color: #fff;
 }
+p {
+  line-height: 1rem;
+}
 .logo-wrapper {
   .logo-U {
     transform: translateX(-100vw);
@@ -97,9 +100,15 @@ export default {
 img {
   width: 80px;
 }
+.images {
+  margin-right: 20px;
+}
 @media (max-width: 400px) {
   img {
-    width: 40px;
+    width: 30px;
+  }
+  .images {
+    margin-right: 10px;
   }
   .normal-text {
     font-weight: 500;

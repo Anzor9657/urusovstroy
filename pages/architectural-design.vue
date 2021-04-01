@@ -28,7 +28,7 @@
           <b-row align-h="start">
             <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">01</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Услуга</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Проектирование</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Проектирование</b-col>
           </b-row>
         </b-col>
       </b-row>
@@ -55,7 +55,7 @@
           <b-row align-h="start">
             <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">02</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Как мы работаем</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Проектирование</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Проектирование</b-col>
           </b-row>
         </b-col>
       </b-row>
@@ -125,7 +125,7 @@
           <b-row align-h="start">
             <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">03</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Примеры работ</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Готовые проекты</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Готовые проекты</b-col>
           </b-row>
         </b-col>
       </b-row>
@@ -173,7 +173,7 @@
           <b-row align-h="start">
             <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">04</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Примеры работ</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Готовые проекты</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Готовые проекты</b-col>
           </b-row>
         </b-col>
       </b-row>
@@ -199,7 +199,7 @@
           <b-row align-h="start">
             <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">05</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Вопросы</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-sm-none">Свяжись с нами</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Свяжись с нами</b-col>
           </b-row>
         </b-col>
       </b-row>

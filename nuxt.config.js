@@ -46,5 +46,29 @@ export default {
   build: {},
   generate: {
     routes: ['/', '/interior-design', '/architectural-design', '/construction']
+  },
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'main',
+        path: '/',
+        component: resolve(__dirname, 'pages/index.vue')
+      }),
+      routes.push({
+        name: 'architectural-design',
+        path: '/architectural-design',
+        component: resolve(__dirname, 'pages/architectural-design.vue')
+      }),
+      routes.push({
+        name: 'interior-design',
+        path: '/interior-design',
+        component: resolve(__dirname, 'pages/interior-design.vue')
+      }),
+      routes.push({
+        name: 'empty',
+        path: '*',
+        component: resolve(__dirname, 'pages/index.vue')
+      })
+    }
   }
 };

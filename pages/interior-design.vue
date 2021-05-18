@@ -36,14 +36,14 @@
         </b-col>
         <b-col xl="6" lg="6" sm="10" md="10">
           <span class="big-text margin-50">
-            Засчет детального сбора информации и контроляс нашей стороны, интерьер в результате получится таким, как Вы пожелаете
+            Разработка дизайн-проекта поможет определиться с идеей, концепцией, формой и материалами, которые будут использоваться в вашем интерьере. 
           </span>
           <b-row class="small-text mt-4">
             <b-col lg="6" sm="12" md="12" class="margin-50">
-              Мы организуем строительный процесси освобождаем ваше время. Вы получаете проект "под ключ" и все проблемы ремонта вас не касаются. Вам нужно будет появиться на объекте только на приёме работ.
+              Мы организуем полный пакет документов, включающий в себя разные этапы проектирования, выполненные с архитектурным подходом.
             </b-col>
             <b-col lg="6" sm="12" md="12" class="margin-50">
-              Вместо регулярных посещений объекта, вы можете заниматься своими любимыми делами или работой — всё ведение стройки мы берём на себя
+              Это поможет вам организовать грамотный ремонт, избежать ошибок и лишних трат, а конечный результат получился таким, как и был задуман.   
             </b-col>
           </b-row>
         </b-col>
@@ -68,7 +68,7 @@
                     <span>Техническое задание</span>
                 </div>
                 <div class="small-text padding-50">
-                  Выясняем особенности вашего образа жизни и технические условия объекта. Это позволяет сделать проект без лишних переделок и экономит ваше время
+                  Выясняем особенности вашего образа жизни и технические условия объекта. Это позволяет сделать проект индивидульным и креативным с минимальными правками.        
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -79,7 +79,7 @@
                     <span>Планировочное решение</span>
                 </div>
                 <div class="small-text padding-50">
-                  Разделяем на функциональные зоны помещения объекта, основываясь на его габаритах и ваших предпочтениях
+                  Разрабатываем удобную и эргономически грамотную планировку с учетом габаритов помещения, основываясь на ваших пожеланиях.
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -90,7 +90,7 @@
                     <span>Коллажирование</span>
                 </div>
                 <div class="small-text padding-50">
-                  Подготовим концепции интерьера: цветовое решение, мебель и материалы. Поедем с вами по магазинам, чтобы определить основную комплектацию
+                  Этап разработки основной идеи и концепции интерьера: цветовое решение, мебель и материалы. Так же выезд с вами в магазины для утверждения позиций. 
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -101,7 +101,7 @@
                     <span>3D-Визуализация</span>
                 </div>
                 <div class="small-text padding-50">
-                  Подготовим фотореалистичные изображения вашего будущего интерьера, чтобы Вы могли оценить сочетание цветов, материалов, мебели и декора
+                  Построение фотореалистичных изображений вашего будущего интерьера, чтобы Вы могли оценить сочетание цветов, материалов, мебели и декора.
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -112,7 +112,18 @@
                     <span>Полный рабочий проект</span>
                 </div>
                 <div class="small-text padding-50">
-                  Подготовим все чертежи, которые позволят точно подготовить смету для строителей, и минимизируют необходимость дополнительных работ
+                  Разработка полного пакета чертежей, который позволит точно и грамотно реализовать проекти минимизируют необходимость дополнительных работ.
+                </div>
+              </b-col>
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
+                <div class="font-weight-bold mb-3">
+                  06
+                </div>
+                <div class="normal-text mb-2">
+                    <span>Спецификация</span>
+                </div>
+                <div class="small-text padding-50">
+                  Подготовим комплект ведомостей, описываающей все материалы и элементы, необходимые для реализации рабочего раздела дизайн-проекта.
                 </div>
               </b-col>
             </b-row>
@@ -138,7 +149,7 @@
                     <span>Авторский надзор</span>
                 </div>
                 <div class="small-text padding-50">
-                  4 раза в месяц приезжаем на объект и проверяем, чтобы рабочие и другие участники проекта четко следовали чертежам. Консультируем и даем пояснения
+                  Выезд на объект 4 раза в месяц и надзор, позволяющий работе на объекте проходить правильно, быстро и без ненужных последствий. 
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -149,7 +160,7 @@
                     <span>Комплектация объекта</span>
                 </div>
                 <div class="small-text padding-50">
-                  Найдем подрядчиков и поставщиков. Организуем оплату и доставку товара. Консультируем по приемке и проверке товаров на объекте
+                  Организуем поставку отделочных материалов, мебели и техники. Проследим за оплатой и доставкой товара.
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -160,7 +171,7 @@
                     <span>Управление ремонтом</span>
                 </div>
                 <div class="small-text padding-50">
-                  На объекте будет менеджер, который будет координировать и организовывать всех участников проекта
+                  Технический надзор. Коордирование и организация всех этапов. Контроль на каждом этапе, консультация прораба.
                 </div>
               </b-col>
             </b-row>
@@ -179,7 +190,7 @@
           <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
             <b-row cols-xl="3" cols-lg="3" cols-md="1" cols-sm="1">
               <template v-for="(item, index) of cards">
-                <b-col class="mb-4" :key="index" v-on:click="cardContent=item">
+                <b-col class="mb-4" :key="index" v-on:click="cardContent=item.images">
                   <card-item
                     v-b-modal.modal-center
                     :title="item.title"
@@ -217,7 +228,7 @@
       </b-row>
       <footer-container />
     </div>
-    <modal-center :content="cardContent" />
+    <modal-center :images="cardContent" />
   </div>
 </template>
 <script>
@@ -255,14 +266,50 @@ export default {
       show5: false,
       show6: false,
       cards: [
-        { title: 'Название проекта 1' },
-        { title: 'Название проекта 2' },
-        { title: 'Название проекта 3' },
-        { title: 'Название проекта 4' },
-        { title: 'Название проекта 5' },
-        { title: 'Название проекта 6' }
+        {
+          title: 'Лофт',
+          description: '78 м2',
+          price: '150 000 ₽',
+          image: "../static/images/interior-design/loft/title.jpg",
+          images: [
+            "../static/images/interior-design/loft/1.jpg",
+            "../static/images/interior-design/loft/2.jpg",
+            "../static/images/interior-design/loft/3.jpg",
+            "../static/images/interior-design/loft/4.jpg",
+            "../static/images/interior-design/loft/5.jpg",
+            "../static/images/interior-design/loft/6.jpg",
+            "../static/images/interior-design/loft/7.jpg",
+            "../static/images/interior-design/loft/8.jpg",
+            "../static/images/interior-design/loft/9.jpg",
+            "../static/images/interior-design/loft/10.jpg",
+            "../static/images/interior-design/loft/11.jpg",
+            "../static/images/interior-design/loft/12.jpg",
+            "../static/images/interior-design/loft/13.jpg",
+            "../static/images/interior-design/loft/14.jpg",
+            "../static/images/interior-design/loft/15.jpg",
+            "../static/images/interior-design/loft/16.jpg",
+            "../static/images/interior-design/loft/17.jpg",
+            "../static/images/interior-design/loft/18.jpg",
+            "../static/images/interior-design/loft/19.jpg",
+            "../static/images/interior-design/loft/20.jpg",
+            "../static/images/interior-design/loft/21.jpg",
+          ]
+        },
+        {
+          title: 'Эсфера 113',
+          description: '113 м2',
+          price: '230 000 ₽',
+          image: "rfrg"
+        },
+        {
+          title: 'Атажукина',
+          description: '100 м2',
+          price: '150 000 ₽',
+          image: "rfrg",
+          images: []
+        }
       ],
-      cardContent: null
+      cardContent: []
     }
   },
   asyncData() {

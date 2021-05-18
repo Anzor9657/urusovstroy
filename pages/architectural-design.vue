@@ -38,11 +38,11 @@
         </b-col>
         <b-col xl="6" lg="6" sm="10" md="10">
           <span class="big-text margin-50">
-            От первых эскизов до новоселья вместе с вами мы создадим современный дом европейского уровня
+            От первых эскизов до новоселья вместе с вами мы создадим современный дом уровня премиум.
           </span>
           <b-row class="small-text mt-4">
             <b-col lg="6" sm="12" md="12" class="margin-50">
-              Разработаем архитектурный проект и планировку дома. Спроектируем дом индивидуально для вас и вашей семьи
+              Разработка архитектурного проекта: индивидуально для вас и вашей семьи, так же коммерческих сооружений под ваши пожелания.
             </b-col>
             <b-col lg="6" sm="12" md="12" class="margin-50">
               Наша команда будет сопровождать проект от первых эскизов до завершения отделки.
@@ -55,7 +55,7 @@
           <b-row align-h="start">
             <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">02</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Как мы работаем</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Проектирование</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Этапы работ</b-col>
           </b-row>
         </b-col>
       </b-row>
@@ -70,7 +70,7 @@
                     <span>Техническое задание</span>
                 </div>
                 <div class="small-text padding-50">
-                  Для того, чтобы проект вашего частного дома и его планировка соответствовали вашему привычному быту,  мы узнаем особенности вашей жизни
+                  Составление технического задания необходимо для того, чтобы с учетом особенностей и ваших пожеланий составить самое подходящее архитектурное решение. 
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -81,7 +81,7 @@
                     <span>Архитектурное проектирование</span>
                 </div>
                 <div class="small-text padding-50">
-                  Разработаем планировочное решение совместно с архитектурой.  Проектируем дом, основываясь на особенностях вашего быта и ваших пожеланиях 
+                  Разработка планировочного решения совместно с архитектурой.  Проектирование на основе ваших пожеланий и предпочтений. 
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -92,7 +92,7 @@
                     <span>Рабочий проект</span>
                 </div>
                 <div class="small-text padding-50">
-                  Подготовим полный набор чертежей, необходимый для воплощения проекта вашего дачного дома или дома для постоянного проживания
+                  Подготовка полного набора чертежей, необходимых для грамотной реализации проекта, разработанного специально для вас.
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -100,10 +100,10 @@
                   04
                 </div>
                <div class="normal-text mb-2">
-                    <span>Спецификация</span>
+                    <span>3D-визуализация</span>
                 </div>
                 <div class="small-text padding-50">
-                  Подберем материалы и рассчитаем стоимость строительства
+                  Построение фотореалистичных изображений будущего здания, чтобы Вы могли оценить сочетание цветов, материалов, мебели и декора.
                 </div>
               </b-col>
               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
@@ -111,10 +111,21 @@
                   05
                 </div>
                 <div class="normal-text mb-2">
+                    <span>Спецификация</span>
+                </div>
+                <div class="small-text padding-50">
+                  Подбор материалов и рассчет стоимости строительства, что позволит вам грамотно управлять своими финансами.
+                </div>
+              </b-col>
+              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
+                <div class="font-weight-bold mb-3">
+                  06
+                </div>
+                <div class="normal-text mb-2">
                     <span>Авторский надзор и управление строительством</span>
                 </div>
                 <div class="small-text padding-50">
-                  Осуществим технический контроль и авторский надзор, чтобы в действительности здание соответствовало созданным  3D-визуализациям
+                  Осуществление технического контроля и авторского надзора, для того, чтоб воплотить 3D визуализации в действительность и сделать это без ошибок. 
                 </div>
               </b-col>
             </b-row>
@@ -124,54 +135,6 @@
         <b-col xl="9" lg="9" sm="10" md="10">
           <b-row align-h="start">
             <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">03</b-col>
-            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Примеры работ</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Готовые проекты</b-col>
-          </b-row>
-        </b-col>
-      </b-row>
-      <b-row align-h="center" class="padding-150">
-          <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
-            <b-row>
-               <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
-                <div class="font-weight-bold mb-3">
-                  01
-                </div>
-                 <div class="normal-text mb-2">
-                    <span>Авторский надзор</span>
-                </div>
-                <div class="small-text padding-50">
-                  4 раза в месяц приезжаем на объект и проверяем, чтобы рабочие и другие участники проекта четко следовали чертежам. Консультируем и даем пояснения
-                </div>
-              </b-col>
-              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
-                <div class="font-weight-bold mb-3">
-                  02
-                </div>
-                 <div class="normal-text mb-2">
-                    <span>Комплектация объекта</span>
-                </div>
-                <div class="small-text padding-50">
-                  Найдем подрядчиков и поставщиков. Организуем оплату и доставку товара. Консультируем по приемке и проверке товаров на объекте
-                </div>
-              </b-col>
-              <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
-                <div class="font-weight-bold mb-3">
-                  03
-                </div>
-                 <div class="normal-text mb-2">
-                    <span>Управление ремонтом</span>
-                </div>
-                <div class="small-text padding-50">
-                  На объекте будет менеджер, который будет координировать и организовывать всех участников проекта
-                </div>
-              </b-col>
-            </b-row>
-          </b-col>
-      </b-row>
-      <b-row  align-h="center" class="padding-100">
-        <b-col xl="9" lg="9" sm="10" md="10">
-          <b-row align-h="start">
-            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">04</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Примеры работ</b-col>
             <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Готовые проекты</b-col>
           </b-row>
@@ -197,7 +160,7 @@
       <b-row  align-h="center" class="padding-100">
         <b-col xl="9" lg="9" sm="10" md="10">
           <b-row align-h="start">
-            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">05</b-col>
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">04</b-col>
             <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Вопросы</b-col>
             <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Свяжись с нами</b-col>
           </b-row>

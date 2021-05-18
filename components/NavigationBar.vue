@@ -21,9 +21,8 @@
         <NuxtLink to="/interior-design">дизайн интерьера</NuxtLink>
         <NuxtLink to="/architectural-design">архитектурное проектирование</NuxtLink>
         <NuxtLink to="/construction">строительство</NuxtLink>
-        <!-- <NuxtLink to="/">ремонт</NuxtLink>
-        <NuxtLink to="/">корпусная мебель</NuxtLink>
-        <NuxtLink to="/">интерьерный салон</NuxtLink> -->
+        <NuxtLink to="/cabinet-furniture">корпусная мебель</NuxtLink>
+        <NuxtLink to="/salon">интерьерный салон</NuxtLink>
       </b-navbar-nav>
     </b-collapse>
 
@@ -36,6 +35,8 @@
         <NuxtLink to="/interior-design">дизайн интерьера</NuxtLink>
         <NuxtLink to="/architectural-design">архитектурное проектирование</NuxtLink>
         <NuxtLink to="/construction">строительство</NuxtLink>
+        <NuxtLink to="/cabinet-furniture">корпусная мебель</NuxtLink>
+        <NuxtLink to="/salon">интерьерный салон</NuxtLink>
       </div>
     </b-modal>
   </b-navbar>

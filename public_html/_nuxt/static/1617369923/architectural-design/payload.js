@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/architectural-design", (function(a){return {data:[{rollingRight:a,rollingTop:a}],fetch:{},mutations:void 0}}(false)));

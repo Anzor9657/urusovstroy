@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/salon", (function(a){return {data:[{rollingRight:a,rollingTop:a}],fetch:{},mutations:void 0}}(false)));

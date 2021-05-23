@@ -4,7 +4,7 @@
     <div class="d-flex flex-column align-start card-container">
       <span class="card-primary mb-1">{{title}} {{index}}</span>
       <span class="card-secondary text-gray mb-4">{{description}}</span>
-      <span class="card-secondary">{{price}}</span>
+      <span v-if="price" class="card-secondary">{{price}}</span>
     </div>
   </div>
 </template>
@@ -17,15 +17,15 @@ export default {
     },
     title: {
       type: String,
-      default: 'Название проекта'
+      default: ''
     },
     description: {
       type: String,
-      default: '100 м2, 12 месяцев'
+      default: ''
     },
     price: {
       type: String,
-      default: '1000000 ₽'
+      default: ''
     }
   }
 };
@@ -33,6 +33,10 @@ export default {
 <style lang="scss" scoped>
 .card {
   border: 0.5px thin #dadada;
+  img {
+    height: 15vw;
+    object-fit: cover;
+  }
 }
 .card-container {
   padding: 40px 0 68px 40px;
@@ -40,6 +44,13 @@ export default {
 @media (max-width: 1366px) {
   .card-container {
     padding: 20px 0 27px 20px;
+  }
+}
+@media (max-width: 863px) {
+  .card {
+    img {
+      height: 50vw;
+    }
   }
 }
 </style>

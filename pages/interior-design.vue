@@ -270,43 +270,22 @@ export default {
           title: 'Лофт',
           description: '78 м2',
           price: '150 000 ₽',
-          image: "../static/images/interior-design/loft/title.jpg",
-          images: [
-            "../static/images/interior-design/loft/1.jpg",
-            "../static/images/interior-design/loft/2.jpg",
-            "../static/images/interior-design/loft/3.jpg",
-            "../static/images/interior-design/loft/4.jpg",
-            "../static/images/interior-design/loft/5.jpg",
-            "../static/images/interior-design/loft/6.jpg",
-            "../static/images/interior-design/loft/7.jpg",
-            "../static/images/interior-design/loft/8.jpg",
-            "../static/images/interior-design/loft/9.jpg",
-            "../static/images/interior-design/loft/10.jpg",
-            "../static/images/interior-design/loft/11.jpg",
-            "../static/images/interior-design/loft/12.jpg",
-            "../static/images/interior-design/loft/13.jpg",
-            "../static/images/interior-design/loft/14.jpg",
-            "../static/images/interior-design/loft/15.jpg",
-            "../static/images/interior-design/loft/16.jpg",
-            "../static/images/interior-design/loft/17.jpg",
-            "../static/images/interior-design/loft/18.jpg",
-            "../static/images/interior-design/loft/19.jpg",
-            "../static/images/interior-design/loft/20.jpg",
-            "../static/images/interior-design/loft/21.jpg",
-          ]
+          image: "../images/interior-design/loft/0.jpg",
+          images: this.getImages('../images/interior-design/loft', 21, 'jpg')
         },
         {
           title: 'Эсфера 113',
           description: '113 м2',
           price: '230 000 ₽',
-          image: "rfrg"
+          image: "../images/interior-design/esfera/0.jpg",
+          images: this.getImages('../images/interior-design/esfera', 32, 'jpg')
         },
         {
           title: 'Атажукина',
           description: '100 м2',
           price: '150 000 ₽',
-          image: "rfrg",
-          images: []
+          image: "../images/interior-design/atajukina/0.jpg",
+          images: this.getImages('../images/interior-design/atajukina', 21, 'jpg')
         }
       ],
       cardContent: []
@@ -325,6 +304,11 @@ export default {
     setTimeout(() => {
       this.rollingTop = true;
     }, 3000);
+  },
+  methods: {
+    getImages(path, count, format) {
+      return new Array(count).fill().map((_, index) => `${path}/${index}.${format}`)
+    }
   }
 };
 </script>

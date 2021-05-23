@@ -144,7 +144,7 @@
           <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
             <b-row cols-xl="3" cols-lg="3" cols-md="1" cols-sm="1">
               <template v-for="(item, index) of cards">
-                <b-col class="mb-4" :key="index" v-on:click="cardContent=item">
+                <b-col class="mb-4" :key="index" v-on:click="cardContent=item.images">
                   <card-item
                     v-b-modal.modal-center
                     :title="item.title"
@@ -182,7 +182,7 @@
       </b-row>
       <footer-container />
     </div>
-    <modal-center :content="cardContent" />
+    <modal-center :images="cardContent" />
   </div>
 </template>
 <script>
@@ -220,14 +220,38 @@ export default {
       show5: false,
       show6: false,
       cards: [
-        { title: 'Название проекта 1' },
-        { title: 'Название проекта 2' },
-        { title: 'Название проекта 3' },
-        { title: 'Название проекта 4' },
-        { title: 'Название проекта 5' },
-        { title: 'Название проекта 6' }
+        {
+          title: 'Классический двухэтажный дом',
+          description: '364 м2, 5-7 человек',
+          image: "../images/architecturial-design/klass-dom/1.jpg",
+          images: this.getImages('../images/architecturial-design/klass-dom', 7, 'jpg')
+        },
+        {
+          title: 'Современный большой дом',
+          description: '257 м2, 5-10 человек',
+          image: "../images/architecturial-design/sov-bol-dom/1.jpg",
+          images: this.getImages('../images/architecturial-design/sov-bol-dom', 7, 'jpg')
+        },
+        {
+          title: 'Двухэтажный дом из газобетона',
+          description: '166 м2, 5-6 человек',
+          image: "../images/architecturial-design/dom-gasbeton/1.jpg",
+          images: this.getImages('../images/architecturial-design/dom-gasbeton', 7, 'jpg')
+        },
+        {
+          title: 'Типовой дом 3',
+          description: '364 м2, 5-7 человек',
+          image: "../images/architecturial-design/tip-dom-3/1.jpg",
+          images: this.getImages('../images/architecturial-design/tip-dom-3', 7, 'jpg')
+        },
+        {
+          title: 'Аристократический дом',
+          description: '303 м2, 5-10 человек',
+          image: "../images/architecturial-design/aric-dom/1.jpg",
+          images: this.getImages('../images/architecturial-design/aric-dom', 6, 'jpg')
+        }
       ],
-      cardContent: null
+      cardContent: []
     }
   },
   asyncData() {
@@ -243,6 +267,11 @@ export default {
     setTimeout(() => {
       this.rollingTop = true;
     }, 3000);
+  },
+  methods: {
+    getImages(path, count, format) {
+      return new Array(count).fill().map((_, index) => `${path}/${index + 1}.${format}`)
+    }
   }
 };
 </script>

@@ -1,6 +1,5 @@
 <template> 
     <b-modal id="modal-center" centered hide-footer hide-header>
-        {{images}}
         <div class="pa-5" v-if="images.length">
             <vue-slick-carousel :arrows="false" v-bind="carouselSettings" :dots="true">
                 <template v-for="item of images">
@@ -44,5 +43,9 @@ export default {
     max-width: 99%;
     height: 70vh;
     overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
 </style>

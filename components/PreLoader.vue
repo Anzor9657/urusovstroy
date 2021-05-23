@@ -67,9 +67,6 @@ export default {
   z-index: 2;
   color: #fff;
 }
-p {
-  line-height: 1rem;
-}
 .logo-wrapper {
   .logo-U {
     transform: translateX(-100vw);

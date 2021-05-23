@@ -207,11 +207,12 @@
       <b-row align-h="center" class="padding-150">
         <b-col xl="9" lg="9" sm="12" md="12">
           <div class="d-flex flex-column justify-content-between h-100">
+            <span class="top-title-text text-uppercase padding-100">decorator</span>
             <div>
-              <a href="tel:89287196638" class="gray-small-text-500"><p>Тел: 8 (928) 719-66-38</p></a>
-              <p>Адрес: Нальчик, ул. Ахохова, 183</p>
+              <a href="tel:89287196638"><p>Тел: 8 (928) 719-66-38</p></a>
+              <a href="https://goo.gl/maps/z9SMEuvuAQrfnwvs6" target="_blank"><p>Адрес: Нальчик, ул. Ахохова, 183</p></a>
               <p>E-mail: decorator_nalchik@mail.ru</p>
-              <p>Inst: decorator_nalchik</p>
+              <a href="https://www.instagram.com/decorator_nalchik/" target="_blank"><p>Inst: decorator_nalchik</p></a>
             </div>
           </div>
         </b-col>
@@ -236,6 +237,7 @@ export default {
     ModalCenter,
     FooterContainer
   },
+  layout: 'default',
   head: {
     title: "Urusov stroy",
     meta: [
@@ -311,6 +313,14 @@ export default {
   width: 100%;
   height: 21vh;
   background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit !important;
+  &:hover {
+    text-decoration: none;
+    color: inherit !important;
+  }
 }
 .feedback a {
   color: #000;

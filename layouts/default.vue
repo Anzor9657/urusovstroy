@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <tbody>
     <Nuxt />
-  </div>
+  </tbody>
 </template>
 <script>
 import Vue from 'vue';
@@ -10,17 +10,21 @@ import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue';
 Vue.use(BootstrapVue);
 Vue.use(BootstrapVueIcons);
 
-export default Vue;
+export default new Vue({ name: 'default' });
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;&display=swap");
 
 @font-face {
   font-family: "EurostyleLTStd";
   src: local("EurostyleLTStd"), url("../static/fonts/EurostileLT.ttf");
 }
 html {
-  font-family: Montserrat, "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+  body { 
+    font-family: "Montserrat", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  font-family: "Montserrat", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;

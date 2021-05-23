@@ -201,6 +201,7 @@ export default {
     NavigationBar,
     FooterContainer
   },
+  layout: 'default',
   head: {
     title: "Urusov stroy",
     meta: [

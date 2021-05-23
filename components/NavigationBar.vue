@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="xl" type="dark" variant="transparent" class="navbar">
+  <b-navbar toggleable="lg" type="dark" variant="transparent" class="navbar">
     <NuxtLink to="/">
       <b-img
         src="../static/images/logos/logo.svg"
@@ -20,9 +20,9 @@
       <b-navbar-nav class="navbar-titles navbar-text">
         <NuxtLink to="/interior-design">дизайн интерьера</NuxtLink>
         <NuxtLink to="/architectural-design">архитектурное проектирование</NuxtLink>
-        <NuxtLink to="/construction">строительство</NuxtLink>
-        <NuxtLink to="/cabinet-furniture">корпусная мебель</NuxtLink>
-        <NuxtLink to="/salon">интерьерный салон</NuxtLink>
+        <NuxtLink v-if="css > 1280" to="/construction">строительство</NuxtLink>
+        <NuxtLink v-if="css > 1366" to="/cabinet-furniture">корпусная мебель</NuxtLink>
+        <NuxtLink v-if="css > 1600" to="/salon">интерьерный салон</NuxtLink>
       </b-navbar-nav>
     </b-collapse>
 
@@ -41,6 +41,18 @@
     </b-modal>
   </b-navbar>
 </template>
+<script>
+export default {
+  computed: {
+    css () {
+      if (process.client) {
+        return window.innerWidth
+      }
+      return 0
+    }
+  }
+}
+</script>>
 <style lang="scss" scoped>
 .navbar {
   position: absolute;

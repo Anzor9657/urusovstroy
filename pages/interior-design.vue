@@ -246,6 +246,7 @@ export default {
     ModalCenter,
     CardItem
   },
+  layout: 'default',
   head: {
     title: "Urusov stroy",
     meta: [

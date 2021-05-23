@@ -172,6 +172,7 @@ export default {
     ModalCenter,
     FooterContainer
   },
+  layout: 'default',
   head: {
     title: "Urusov stroy",
     meta: [

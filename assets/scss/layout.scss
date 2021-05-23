@@ -105,3 +105,13 @@ div.all-padding-100 {
     }
   }
 }
+.my-page-enter-active,
+.my-page-leave-active {
+  transition: transform 0.3s;
+}
+.my-page-enter {
+  transform: translateY(100vh);
+}
+.my-page-leave-to {
+  transform: translateY(100vh);
+}

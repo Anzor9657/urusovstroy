@@ -46,5 +46,12 @@ export default {
   build: {},
   generate: {
     routes: ['/', '/interior-design', '/architectural-design', '/construction', '/salon', '/cabinet-furniture']
+  },
+  pageTransition: {
+    name: 'my-page',
+    mode: 'out-in',
+    beforeEnter (el) {
+      console.log('Before enter...');
+    }
   }
 };

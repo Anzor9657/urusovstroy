@@ -186,12 +186,6 @@ export default {
   data () {
     return {
       showTopArrow: false,
-      show1: false,
-      show2: false,
-      show3: false,
-      show4: false,
-      show5: false,
-      show6: false,
       cards: [
         { title: 'Название проекта 1' },
         { title: 'Название проекта 2' },

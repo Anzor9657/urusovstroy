@@ -1,7 +1,7 @@
 <template> 
     <b-modal id="modal-center" centered hide-footer hide-header>
         <div class="pa-5" v-if="images.length">
-            <vue-slick-carousel :arrows="false" v-bind="carouselSettings" :dots="true">
+            <vue-slick-carousel arrows v-bind="carouselSettings" :dots="true">
                 <template v-for="item of images">
                     <div :key="item" class="img-block">
                         <b-img :src="item" alt="card image" />
@@ -46,6 +46,17 @@ export default {
     img {
         width: 100%;
         height: 100%;
+    }
+}
+::v-deep {
+    .slick-prev:before, .slick-next:before {
+        font-size: 35px;
+    }
+    .slick-next:before {
+        margin-left: 25px;
+    }
+    .slick-prev:before {
+        margin-left: -40px;
     }
 }
 </style>

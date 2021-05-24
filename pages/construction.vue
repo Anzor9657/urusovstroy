@@ -3,24 +3,26 @@
     <pre-loader :rolling-top="rollingTop" :rolling-right="rollingRight" />
     <div v-show="rollingTop">
       <navigation-bar />
-      <div class="padding-100">
-        <b-img
-          src="../static/images/construction/title-img.png"
-          fluid
-          alt="Responsive image"
-        />
-        <div class="top-title-container">
-          <span class="top-title-text">Строительство домов <br />под ключ</span>
+      <b-container fluid class="margin-all-100 back-img">
+        <b-row class="">
+        </b-row>
+        <b-row align-h="center">
+          <b-col xl="11" lg="11" md="10" sm="11" offset-xl="1" offset-lg="1" offset-md="2" offset-sm="0" align-self="center" class="height-79 d-flex align-items-center">
+            <div class="top-title-container">
+          <span class="top-title-text">cтроительство<br />домов под ключ</span>
         </div>
-        <div class="feedback">
-          <div class="d-flex flex-column">
+          </b-col>
+          <b-col xl="3" lg="3" md="4" sm="8" offset-xl="9" offset-lg="9" offset-md="4" offset-sm="2" class="feedback">
             <a href="tel:89280807670">
-              <span class="title-text">Связаться с нами</span>
+              <span class="title-text" @mouseenter="showTopArrow = true" @mouseleave="showTopArrow = false">Связаться с нами</span>
+              <b-icon v-if="showTopArrow" font-scale="1.5" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
             </a>
             <span class="action">Заказать звонок сейчас</span>
-          </div>
-        </div>
-      </div>
+          </b-col>
+          <b-col xl="0" lg="0" md="4" sm="2" class="feedback">
+          </b-col>
+        </b-row>
+      </b-container>
       <b-row  align-h="center" class="padding-100">
         <b-col xl="9" lg="9" sm="10" md="10">
           <b-row align-h="start">
@@ -31,7 +33,7 @@
         </b-col>
       </b-row>
       <b-row align-h="center" class="padding-100">
-        <b-col xl="3" lg="3" sm="10" md="10" class="big-text padding-50">
+        <b-col xl="3" lg="3" sm="10" md="10" class="normal-text padding-50">
           Строительство частных домов
         </b-col>
         <b-col xl="6" lg="6" sm="10" md="10" class="title-text">
@@ -215,6 +217,7 @@ export default {
   },
   data() {
     return {
+      showTopArrow: false,
       playsinline: true,
       
       // videojs options
@@ -246,40 +249,38 @@ export default {
   }
 };
 </script>
-<style lang="scss"> scoped>
+<style lang="scss" scoped>
 .main {
   width: 100%;
   overflow: hidden;
+  .back-img {
+    background: url(../static/images/construction/title-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
 }
 a:hover {
   text-decoration: none;
 }
 .top-title-container {
-  position: absolute;
-  top: 20vw;
-  left: 9vw;
+  padding-top: 150px;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   display: flex;
   flex-direction: column;
   color: #fff;
-  font-size: 2.25rem;
 }
 .feedback {
-  position: absolute;
-  top: 43vw;
-  right: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  width: 33vw;
-  height: 14vw;
+  justify-content: center;
+  width: 100%;
+  height: 21vh;
   background-color: #fff;
-}
-.feedback div .action {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #adadad;
 }
 .feedback a {
   color: #000;

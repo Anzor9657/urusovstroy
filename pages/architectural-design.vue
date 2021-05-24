@@ -142,9 +142,9 @@
       </b-row>
       <b-row align-h="center" class="padding-150 pt-5">
           <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
-            <b-row cols-xl="3" cols-lg="3" cols-md="1" cols-sm="1">
+            <b-row cols-xl="4" cols-lg="4" cols-md="10" cols-sm="10">
               <template v-for="(item, index) of cards">
-                <b-col class="mb-4" :key="index" v-on:click="cardContent=item.images">
+                <b-col xl="4" lg="4" sm="10" md="10" class="mb-4" :key="index" v-on:click="cardContent=item.images">
                   <card-item
                     v-b-modal.modal-center
                     :title="item.title"

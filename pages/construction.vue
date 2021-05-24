@@ -21,43 +21,44 @@
           </div>
         </div>
       </div>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">01</b-col>
-        <b-col class="font-weight-bold">Услуга</b-col>
-        <b-col class="font-weight-bold">Строительство</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">01</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Услуга</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Строительство</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-100">
-        <b-col cols="3" class="big-text">
-          Строительство
+        <b-col xl="3" lg="3" sm="10" md="10" class="big-text padding-50">
+          Строительство частных домов
         </b-col>
-        <b-col cols="6" class="title-text">
-          Наша компания производит полный цикл работ, связанных со
-          строительством домов в Нальчике. С нашей помощью вы станете счастливым
-          собственником частного дома, который простоит несколько веков.
+        <b-col xl="6" lg="6" sm="10" md="10" class="title-text">
+          Наша компания  производит полный цикл работ, связанных со строительством домов в Нальчике. С нашей помощью вы станете счастливым собственником частного  дома, который простоит несколько веков
           <b-row class="mt-4">
             <b-col class="small-text text-gray">
-              Проект может быть реализован как за меньшую сумму, так и за
-              большую. Нужно заранее понимать свой бюджет, определить его для
-              нас и мы сделаем проект, комплектацию так, чтобы этих денег
-              хватило
+              Проект может быть реализован как за меньшую сумму, так и за большую. Нужно заранее понимать свой бюджет, определить его для нас, и мы сделаем проект и комплектацию так, чтобы этих денег хватило 
             </b-col>
             <b-col class="small-text text-gray">
-              Свои специалисты для каждого из этапов работ. От дизайна и проекта
-              до строительства и отделки. Строим строго с соблюдением СНИП и
-              ГОСТ. Гарантия на долгие годы, благодаря комплексному подходу.
+              Свои специалисты для каждого из этапов работ: от дизайна и проекта до строительства и отделки. Строим строго с соблюдением СНИП и ГОСТ. Гарантия на долгие годы, благодаря комплексному подходу
             </b-col>
           </b-row>
         </b-col>
       </b-row>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">02</b-col>
-        <b-col class="font-weight-bold">Как мы работаем</b-col>
-        <b-col class="font-weight-bold">Этапы строительства</b-col>
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">02</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Как мы работаем</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Этапы работ</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-        <b-col cols="6" offset="1">
-          <b-row class="padding-100">
-            <b-col cols="5" class="mr-auto">
+          <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
+            <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 01
               </div>
@@ -65,11 +66,10 @@
                 Подбор земельного участка
               </div>
               <div class="small-text padding-50">
-                Подберем земельный участок с лучшими комуникациями, удобным
-                подъездом к объекту и проверим чистоту документов
+                Подберем земельный участок с лучшими комуникациями, удобным подъездом к объекту и проверим чистоту документов
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 02
               </div>
@@ -77,11 +77,10 @@
                 Топосъемка
               </div>
               <div class="small-text padding-50">
-                Оформим все разрешения на строительство как и дома, так и
-                инженерных сооружений (свет, вода, газ)
+                Оформим все разрешения на строительство как и дома, так и инженерных сооружений (свет, вода, газ)
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 03
               </div>
@@ -89,11 +88,10 @@
                 Геология
               </div>
               <div class="small-text padding-50">
-                Оценим условия территории и изучим почву, эти важные данные
-                используем для возведения фундамента
+                Оценим условия территории и изучим почву, эти важные данные используем для возведения фундамента
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 04
               </div>
@@ -101,11 +99,10 @@
                 Первичная посадка объекта
               </div>
               <div class="small-text padding-50">
-                На участке привяжим оси здания к определенным ориентирам и
-                составим акт для передачи подрядным организациям
+                На участке привяжим оси зданияк определенным ориентирам и составим акт для передачи подрядным организациям
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 05
               </div>
@@ -113,11 +110,10 @@
                 Эскиз на проект
               </div>
               <div class="small-text padding-50">
-                Разработаем концепцию здания, четко определим технические
-                характеристики объекта и выберем стиль оформления
+                Разработаем концепцию здания, четко определим технические характеристики объекта и выберем стиль оформления 
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 06
               </div>
@@ -125,11 +121,10 @@
                 Планировка
               </div>
               <div class="small-text padding-50">
-                Сделаем планировку дома, на основании проекта дома заключим
-                договорподряда со строителями
+                Сделаем планировку дома, на основании проекта дома заключим договорподрядасо строителями
               </div>
             </b-col>
-            <b-col cols="5" class="mr-auto">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 07
               </div>
@@ -137,52 +132,47 @@
                 Уведомление о начале строительства
               </div>
               <div class="small-text padding-50">
-                Соберем все необходимые документы и зарегестрируем в МФЦ.
-                Подберем бригаду и начнем строить
-              </div>
-            </b-col>
-            <b-col cols="5" class="mr-auto pt-5">
-              <span class="action-text mb-2">
-                Хотите начать ремонт?
-              </span>
-              <div class="normal-text underline pt-5">
-                Начать работать с нами
+                Соберем все необходимые документыи зарегестрируем в МФЦ. Подберем бригадуи начнем строить 
               </div>
             </b-col>
           </b-row>
         </b-col>
-        <b-col cols="5">
-          <b-img
-            src="../static/images/construction/02-image.png"
-            fluid
-            alt="02_image"
-          />
+      </b-row>
+      <!-- <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">03</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Примеры работ</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Построенные сооружения</b-col>
+          </b-row>
         </b-col>
       </b-row>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">03</b-col>
-        <b-col class="font-weight-bold">Примеры работ</b-col>
-        <b-col class="font-weight-bold">Построенные сооружения</b-col>
-      </b-row>
       <b-row align-h="center padding-150">
-        <b-img src="../static/images/default.png" fluid alt="02_image" />
-      </b-row>
-      <b-row class="padding-150 text-center">
-        <b-col class="font-weight-bold">04</b-col>
-        <b-col class="font-weight-bold">Вопросы</b-col>
-        <b-col class="font-weight-bold">Свяжись с нами</b-col>
+        <div class="video-player-box"
+            :playsinline="playsinline"
+            v-video-player:myVideoPlayer="playerOptions">
+        </div>
+      </b-row> -->
+      <b-row  align-h="center" class="padding-100">
+        <b-col xl="9" lg="9" sm="10" md="10">
+          <b-row align-h="start">
+            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">03</b-col>
+            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Вопросы</b-col>
+            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Свяжись с нами</b-col>
+          </b-row>
+        </b-col>
       </b-row>
       <b-row class="padding-150">
         <b-col cols="5" offset="2" class="mr-auto">
           <div class="big-text padding-50">
             Остались вопросы?
             <br />
-            Или хотите связаться с нами?
+            Хотите начать строить?
             <br />
             Мы всегда рады вам помочь!
           </div>
-          <div class="normal-text underline">
-            Заказать звонок
+          <div class="normal-text underline pointer" v-b-modal.modal-send>
+            Оставить заявку
           </div>
         </b-col>
       </b-row>
@@ -212,6 +202,23 @@ export default {
       }
     ]
   },
+  data() {
+    return {
+      playsinline: true,
+      
+      // videojs options
+      playerOptions: {
+        muted: true,
+        language: 'en',
+        playbackRates: [0.7, 1.0, 1.5, 2.0],
+        sources: [{
+          type: "video/mp4",
+          src: "../videos/video.mp4"
+        }],
+        // poster: "/static/images/author.jpg",
+      }
+    }
+  },
   asyncData() {
     return {
       rollingRight: !process.server,
@@ -228,7 +235,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style lang="scss"> scoped>
 .main {
   width: 100%;
   overflow: hidden;

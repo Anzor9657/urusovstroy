@@ -209,7 +209,7 @@
           <div class="d-flex flex-column justify-content-between h-100">
             <span class="top-title-text text-uppercase padding-100">decorator</span>
             <div>
-              <a href="tel:89287196638"><p>Тел: 8 (928) 719-66-38</p></a>
+              <a href="tel:89280807670"><p>Тел: 8 (928) 080-76-70</p></a>
               <a href="https://goo.gl/maps/z9SMEuvuAQrfnwvs6" target="_blank"><p>Адрес: Нальчик, ул. Ахохова, 183</p></a>
               <p>E-mail: decorator_nalchik@mail.ru</p>
               <a href="https://www.instagram.com/decorator_nalchik/" target="_blank"><p>Inst: decorator_nalchik</p></a>

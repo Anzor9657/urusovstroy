@@ -19,9 +19,9 @@
     <b-col xl="6" lg="6" sm="12" md="12" class="text-right">
       <div class="d-flex flex-column justify-content-between h-100">
         <div>
-          <a href="tel:89287196638" class="gray-small-text-500"><p>8 (928) 719-66-38</p></a>
+          <a href="tel:89280807670" class="gray-small-text-500"><p>8 (928) 080-76-70</p></a>
           <a href="https://goo.gl/maps/z9SMEuvuAQrfnwvs6" target="_blank"><p>Улица Ахохова, 183, Нальчик</p></a>
-          <p>urusov-stroy@gmail.com</p>
+          <p>urusov_stroy@gmail.com</p>
         </div>
         <div>
           <p class="footer-text text-black mb-3">URUSOVSTROY 2021</p>

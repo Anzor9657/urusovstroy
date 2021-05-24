@@ -175,7 +175,7 @@
             <br />
             Мы всегда рады вам помочь!
           </div>
-          <div class="normal-text underline">
+          <div class="normal-text underline pointer" v-b-modal.modal-send>
             Заказать звонок
           </div>
         </b-col>
@@ -214,12 +214,6 @@ export default {
   data () {
     return {
       showTopArrow: false,
-      show1: false,
-      show2: false,
-      show3: false,
-      show4: false,
-      show5: false,
-      show6: false,
       cards: [
         {
           title: 'Классический двухэтажный дом',

@@ -245,7 +245,7 @@
             <br />
             Мы всегда рады вам помочь!
           </div>
-          <div class="normal-text underline">
+          <div class="normal-text underline pointer" v-b-modal.modal-send>
             Заказать звонок
           </div>
         </b-col>

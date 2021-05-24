@@ -217,12 +217,12 @@
           <div class="big-text padding-50">
             Остались вопросы?
             <br />
-            Или хотите связаться с нами?
+            Хотите заказать дизайн?
             <br />
             Мы всегда рады вам помочь!
           </div>
-          <div class="normal-text underline">
-            Заказать звонок
+          <div class="normal-text underline pointer" v-b-modal.modal-send>
+            Оставить заявку
           </div>
         </b-col>
       </b-row>

@@ -13,6 +13,7 @@
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
+    "nuxt-mail": "^3.0.3",
     "v-mask": "^2.2.4",
     "vue-slick-carousel": "^1.0.6",
     "vue-video-player": "^5.0.2"

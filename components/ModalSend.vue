@@ -75,6 +75,11 @@ export default {
   },
   methods: {
     send() {
+      this.$mail.send({
+        from: this.name,
+        subject: this.service,
+        text: this.phone,
+      })
       this.name = '';
       this.phone = '';
       this.service = '';

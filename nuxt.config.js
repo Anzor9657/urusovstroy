@@ -17,6 +17,18 @@ export default {
       { rel: "icon", type: "image/x-icon", href: "/images/logos/logo.svg" }
     ]
   },
+  modules: [
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'anzor9657@gmail.com',
+      },
+      smtp: {
+        host: "smtp.timeweb.ru",
+        port: 2525,
+      },
+    }],
+  ],
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [

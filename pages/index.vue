@@ -308,8 +308,7 @@ export default {
   width: 100%;
   overflow: hidden;
   .back-img {
-    // background: url(../static/images/big_image.png);
-    background-image: url(../static/videos/main.gif);
+    background: url(../static/images/big_image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

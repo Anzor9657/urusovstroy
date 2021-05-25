@@ -2,9 +2,14 @@
   <div class="width-100 card">
     <b-img :src="image" class="width-100" alt="card image" />
     <div class="d-flex flex-column align-start card-container">
-      <span class="card-primary mb-1">{{title}} {{index}}</span>
+      <span class="card-primary mb-1">{{title}}</span>
       <span class="card-secondary text-gray mb-4">{{description}}</span>
       <span v-if="price" class="card-secondary">{{price}}</span>
+      <template v-if="prices.length">
+        <span class="card-secondary" v-for="item of prices" :key="item">
+          {{item}}
+        </span>
+      </template>
     </div>
   </div>
 </template>
@@ -26,6 +31,10 @@ export default {
     price: {
       type: String,
       default: ''
+    },
+    prices: {
+      type: Array,
+      default: () => []
     }
   }
 };

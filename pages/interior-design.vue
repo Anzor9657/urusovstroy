@@ -195,7 +195,7 @@
                     v-b-modal.modal-center
                     :title="item.title"
                     :description="item.description"
-                    :price="item.price"
+                    :prices="item.prices"
                     :image="item.image"
                   />
                 </b-col>
@@ -270,21 +270,33 @@ export default {
         {
           title: 'Лофт',
           description: '78 м2',
-          price: '150 000 ₽',
+          prices: [
+            '- дизайн проект 150 000₽',
+            '- ремонт и материалы 3.2 млн.₽',
+            '- мебель, техника, декор 2.1 млн.₽',
+          ],
           image: "../images/interior-design/loft/0.jpg",
           images: this.getImages('../images/interior-design/loft', 21, 'jpg')
         },
         {
           title: 'Эсфера 113',
           description: '113 м2',
-          price: '230 000 ₽',
+          prices: [
+            '- дизайн проект 230 000₽',
+            '- ремонт и материалы 4 млн.₽',
+            '- мебель, техника, декор 2.8 млн.₽',
+          ],
           image: "../images/interior-design/esfera/0.jpg",
           images: this.getImages('../images/interior-design/esfera', 32, 'jpg')
         },
         {
           title: 'Атажукина',
-          description: '100 м2',
-          price: '150 000 ₽',
+          description: '78 м2',
+          prices: [
+            '- дизайн проект 150 000₽',
+            '- ремонт и материалы 2.8 млн.₽',
+            '- мебель, техника, декор 2.2 млн.₽',
+          ],
           image: "../images/interior-design/atajukina/0.jpg",
           images: this.getImages('../images/interior-design/atajukina', 21, 'jpg')
         }

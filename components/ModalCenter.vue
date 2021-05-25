@@ -1,5 +1,6 @@
 <template> 
-    <b-modal id="modal-center" centered hide-footer hide-header>
+    <b-modal id="modal-center" ref="modal-center" centered hide-footer hide-header>
+        <b-img src="../static/images/close-icon.svg" class="outline-none close-btn" @click="$refs['modal-center'].hide()"/>
         <div class="pa-5" v-if="images.length">
             <vue-slick-carousel arrows v-bind="carouselSettings" :dots="true">
                 <template v-for="item of images">

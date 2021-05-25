@@ -20,9 +20,9 @@
       <b-navbar-nav class="navbar-titles navbar-text">
         <NuxtLink to="/interior-design">дизайн интерьера</NuxtLink>
         <NuxtLink to="/architectural-design">архитектурное проектирование</NuxtLink>
-        <NuxtLink v-if="css > 1281" to="/construction">строительство</NuxtLink>
-        <NuxtLink v-if="css > 1367" to="/cabinet-furniture">корпусная мебель</NuxtLink>
-        <NuxtLink v-if="css > 1601" to="/salon">интерьерный салон</NuxtLink>
+        <NuxtLink v-if="css > 1366" to="/construction">строительство</NuxtLink>
+        <NuxtLink v-if="css > 1600" to="/cabinet-furniture">корпусная мебель</NuxtLink>
+        <NuxtLink v-if="css > 1920" to="/salon">интерьерный салон</NuxtLink>
       </b-navbar-nav>
     </b-collapse>
 

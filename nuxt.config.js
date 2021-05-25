@@ -1,7 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: "static",
-  mode: "universal",
+  ssr: true,
+  target: "server",
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "urusov-stroy",
@@ -16,16 +16,6 @@ export default {
     link: [
       { rel: "icon", type: "image/x-icon", href: "/images/logos/logo.svg" }
     ]
-  },
-
-  mail: {
-    message: {
-      to: 'anzor9657@gmail.com',
-    },
-    smtp: {
-      host: "smtp.timeweb.ru",
-      port: 2525,
-    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build && nuxt generate",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "heroku-postbuild": "yarn build"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",

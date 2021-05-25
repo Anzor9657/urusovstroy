@@ -5,17 +5,19 @@
   </tbody>
 </template>
 <script>
+import Vue from 'vue';
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue';
 import ModalSend from '../components/ModalSend';
 
-export default {
+Vue.use(BootstrapVue)
+Vue.use(BootstrapVueIcons)
+
+export default new Vue({
   name: 'default',
   components: {
-    BootstrapVue,
-    BootstrapVueIcons,
     ModalSend,
   },
-};
+});
 </script>
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;&display=swap");

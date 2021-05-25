@@ -93,7 +93,7 @@
               <div class="font-weight-bold mb-3">
                 01
               </div>
-              <div class="normal-text mb-2" @mouseenter="show1 = true" @mouseleave="show1 = false">
+              <div class="normal-text mb-2" @mouseenter="setActiveShow('show1')">
                 <NuxtLink class="text-black" to="/interior-design">
                   <span>Дизайн интерьера</span>
                   <b-icon v-if="show1" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
@@ -107,7 +107,7 @@
               <div class="font-weight-bold mb-3">
                 02
               </div>
-              <div class="normal-text mb-2" @mouseenter="show2 = true" @mouseleave="show2 = false">
+              <div class="normal-text mb-2" @mouseenter="setActiveShow('show2')">
                 <NuxtLink class="text-black" to="/">
                   <span>Проектирование</span>
                   <b-icon v-if="show2" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
@@ -121,7 +121,7 @@
               <div class="font-weight-bold mb-3">
                 03
               </div>
-              <div class="normal-text mb-2" @mouseenter="show3 = true" @mouseleave="show3 = false">
+              <div class="normal-text mb-2" @mouseenter="setActiveShow('show3')">
                 <NuxtLink class="text-black" to="/construction">
                   <span>Строительство</span>
                   <b-icon v-if="show3" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
@@ -135,7 +135,7 @@
               <div class="font-weight-bold mb-3">
                 04
               </div>
-              <div class="normal-text mb-2" @mouseenter="show4 = true" @mouseleave="show4 = false">
+              <div class="normal-text mb-2" @mouseenter="setActiveShow('show4')">
                 <NuxtLink class="text-black" to="/">
                   <span>Ремонт</span>
                   <b-icon v-if="show4" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
@@ -149,7 +149,7 @@
               <div class="font-weight-bold mb-3">
                 05
               </div>
-              <div class="normal-text mb-2" @mouseenter="show5 = true" @mouseleave="show5 = false">
+              <div class="normal-text mb-2" @mouseenter="setActiveShow('show5')">
                 <NuxtLink class="text-black" to="/">
                   <span>Корпусная мебель</span>
                   <b-icon v-if="show5" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
@@ -163,7 +163,7 @@
               <div class="font-weight-bold mb-3">
                 06
               </div>
-              <div class="normal-text mb-2" @mouseenter="show6 = true" @mouseleave="show6 = false">
+              <div class="normal-text mb-2" @mouseenter="setActiveShow('show6')">
                 <NuxtLink class="text-black" to="/">
                   <span>Интерьерный салон</span>
                   <b-icon v-if="show6" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
@@ -279,7 +279,7 @@ export default {
   data () {
     return {
       showTopArrow: false,
-      show1: false,
+      show1: true,
       show2: false,
       show3: false,
       show4: false,
@@ -300,6 +300,17 @@ export default {
     setTimeout(() => {
       this.rollingTop = true;
     }, 3000);
+  },
+  methods: {
+    setActiveShow(item) {
+      this.show1 = false;
+      this.show2 = false;
+      this.show3 = false;
+      this.show4 = false;
+      this.show5 = false;
+      this.show6 = false;
+      this[item] = true;
+    }
   }
 };
 </script>

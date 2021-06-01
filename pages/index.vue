@@ -72,9 +72,11 @@
           <div class="gray-small-text padding-50">
             Хотите познакомиться со всеми?
           </div>
-          <div class="normal-text underline">
-            Сотрудники компании
-          </div>
+          <NuxtLink class="text-black" to="/team">
+            <div class="normal-text underline">
+              Сотрудники компании
+            </div>
+          </NuxtLink>
         </b-col>
       </b-row>
       <b-row  align-h="center" class="padding-100">

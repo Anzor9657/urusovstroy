@@ -108,7 +108,7 @@
                 02
               </div>
               <div class="normal-text mb-2" @mouseenter="setActiveShow('show2')">
-                <NuxtLink class="text-black" to="/">
+                <NuxtLink class="text-black" to="/architectural-design">
                   <span>Проектирование</span>
                   <b-icon v-if="show2" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
                 </NuxtLink>
@@ -136,7 +136,7 @@
                 04
               </div>
               <div class="normal-text mb-2" @mouseenter="setActiveShow('show4')">
-                <NuxtLink class="text-black" to="/">
+                <NuxtLink class="text-black" to="/complex">
                   <span>Ремонт</span>
                   <b-icon v-if="show4" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
                 </NuxtLink>
@@ -150,7 +150,7 @@
                 05
               </div>
               <div class="normal-text mb-2" @mouseenter="setActiveShow('show5')">
-                <NuxtLink class="text-black" to="/">
+                <NuxtLink class="text-black" to="/cabinet-furniture">
                   <span>Корпусная мебель</span>
                   <b-icon v-if="show5" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
                 </NuxtLink>
@@ -164,7 +164,7 @@
                 06
               </div>
               <div class="normal-text mb-2" @mouseenter="setActiveShow('show6')">
-                <NuxtLink class="text-black" to="/">
+                <NuxtLink class="text-black" to="/salon">
                   <span>Интерьерный салон</span>
                   <b-icon v-if="show6" rotate="90" animation="cylon" icon="arrow-up"></b-icon>
                 </NuxtLink>

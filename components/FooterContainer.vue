@@ -3,11 +3,11 @@
     <b-col xl="3" lg="3" sm="12" md="12" class="margin-100">
       <p class="title-text text-black">Карта сайта</p>
       <NuxtLink to="/"><p>Главная</p></NuxtLink>
-      <p>Наша команда</p>
+      <NuxtLink to="/team"><p>Наша команда</p></NuxtLink>
       <NuxtLink to="/interior-design"><p>Дизайн интерьера</p></NuxtLink>
       <NuxtLink to="/architectural-design"><p>Проектирование</p></NuxtLink>
       <NuxtLink to="/construction"><p>Строительство</p></NuxtLink>
-      <p>Ремонт</p>
+      <NuxtLink to="/complex"><p>Ремонт</p></NuxtLink>
       <NuxtLink to="/cabinet-furniture"><p>Корпусная мебель</p></NuxtLink>
       <NuxtLink to="/salon"><p>Интерьерный салон</p></NuxtLink>
     </b-col>

@@ -58,8 +58,8 @@
         </b-col>
       </b-row>
       <b-row align-h="center" class="padding-150">
-          <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
-            <b-row align-h="start">
+        <b-col xl="9" lg="9" sm="10" md="10" class="font-weight-bold">
+          <b-row align-h="start">
             <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 01
@@ -137,7 +137,7 @@
                 Сделаем качественную черновую отделку, что максимально упростит чистовой ремонт, для гармоничного и практичного интерьера 
               </div>
             </b-col>
-             <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
+            <b-col xl="4" lg="4" sm="12" md="12" class="mb-3">
               <div class="font-weight-bold mb-3">
                 08
               </div>
@@ -151,21 +151,6 @@
           </b-row>
         </b-col>
       </b-row>
-      <!-- <b-row  align-h="center" class="padding-100">
-        <b-col xl="9" lg="9" sm="10" md="10">
-          <b-row align-h="start">
-            <b-col xl="4" lg="4" sm="4" md="4" class="font-weight-bold">03</b-col>
-            <b-col xl="4" lg="4" sm="8" md="4" class="font-weight-bold">Примеры работ</b-col>
-            <b-col xl="4" lg="4" sm="6" md="4" class="font-weight-bold d-xl-block d-lg-block d-md-block d-sm-none">Построенные сооружения</b-col>
-          </b-row>
-        </b-col>
-      </b-row>
-      <b-row align-h="center padding-150">
-        <div class="video-player-box"
-            :playsinline="playsinline"
-            v-video-player:myVideoPlayer="playerOptions">
-        </div>
-      </b-row> -->
       <b-row  align-h="center" class="padding-100">
         <b-col xl="9" lg="9" sm="10" md="10">
           <b-row align-h="start">

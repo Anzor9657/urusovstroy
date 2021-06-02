@@ -58,8 +58,16 @@ export default {
         },
       },
     }],
+    '@nuxtjs/proxy'
   ],
-
+  
+  axios: {
+    proxy: true
+  },
+  
+  proxy: {
+    '/api/': { target: 'https://urusovstroy.ru/', changeOrigin: true }
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   generate: {
@@ -67,9 +75,6 @@ export default {
   },
   pageTransition: {
     name: 'my-page',
-    mode: 'out-in',
-    beforeEnter (el) {
-      console.log('Before enter...');
-    }
+    mode: 'out-in'
   }
 };

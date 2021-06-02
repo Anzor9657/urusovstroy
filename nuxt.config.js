@@ -43,7 +43,21 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    "bootstrap-vue/nuxt"
+    "bootstrap-vue/nuxt",
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'anzor9657@gmail.com',
+      },
+      smtp: {
+        host: 'smtp.timeweb.ru',
+        port: 2525,
+        auth: {
+          user: 'anzor9657@gmail.com',
+          pass: '190796yfkmxbrfypjh'
+        },
+      },
+    }],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

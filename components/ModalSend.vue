@@ -75,6 +75,12 @@ export default {
   },
   methods: {
     send() {
+      // window.open(`mailto:urusov_stroy@gmail.com?subject=${this.service}&body=${this.name}: ${this.phone}`);
+      this.$mail.send({
+        from: this.name,
+        subject: this.service,
+        text: `${this.name}: ${this.phone}`,
+      })
       this.name = '';
       this.phone = '';
       this.service = '';
